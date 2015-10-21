@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row page-header">
+        <div class="col-md-6" >
+            <h2 class="text-center">Baltimore riots <small>arrests timeline.</small></h2>
+        </div>
+        <div class="col-md-6" >
+            <p>{{ description }}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" >
+
+            <p class="text-center">{{formattedDates.from}} - {{formattedDates.to}}</p>
+
+            <slider ng-model="sliders.sliderValue"
+                    min="sliderOptions.min"
+                    step="sliderOptions.step"
+                    max="sliderOptions.max"
+                    value="sliders.sliderValue"
+                    formatter="sliderOptions.formatter">
+            </slider>
+
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-7" >
+
+            <leaflet defaults="leaflet.defaults"
+                     lf-center="leaflet.center"
+                     geojson="leaflet.geoJSON"
+                     height="600px">
+            </leaflet>
+
+        </div>
+        <div class="col-md-5 hide-legend">
+            <nvd3 options="nvd3.chart1.options" data="nvd3.chart1.data"></nvd3>
+            <nvd3 options="nvd3.chart2.options" data="nvd3.chart2.data"></nvd3>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1370 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "3i3v-ibrt",
+      "name" : "BPD Arrests",
+      "attribution" : "Baltimore Police Department",
+      "attributionLink" : "http://www.baltimorepolice.org/",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1318947055,
+      "description" : "This data represents the top arrest charge of those processed at Baltimore's Central Booking & Intake Facility. This data does not contain those who have been processed through Juvenile Booking.",
+      "displayType" : "table",
+      "downloadCount" : 3079,
+      "iconUrl" : "fileId:PVzUQB7UJWDQyt2fBZla4Ab34K4XBJniCYGTkQ3VFYY",
+      "indexUpdatedAt" : 1444223277,
+      "licenseId" : "CC_30_BY",
+      "newBackend" : false,
+      "numberOfComments" : 4,
+      "oid" : 13776184,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1444219346,
+      "publicationGroup" : 246520,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1444219241,
+      "rowsUpdatedBy" : "qu49-kjvy",
+      "tableId" : 4682400,
+      "totalTimesRated" : 0,
+      "viewCount" : 27227,
+      "viewLastModified" : 1444219346,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 225020978,
+        "name" : "Arrest",
+        "dataTypeName" : "text",
+        "fieldName" : "arrest",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601912,
+        "width" : 92,
+        "cachedContents" : {
+          "non_null" : 97236,
+          "smallest" : "13610381",
+          "null" : 5695,
+          "largest" : "15149314",
+          "top" : [ {
+            "count" : 20,
+            "item" : "13610538"
+          }, {
+            "count" : 19,
+            "item" : "13610779"
+          }, {
+            "count" : 18,
+            "item" : "13610477"
+          }, {
+            "count" : 17,
+            "item" : "13610534"
+          }, {
+            "count" : 16,
+            "item" : "13610637"
+          }, {
+            "count" : 15,
+            "item" : "13610500"
+          }, {
+            "count" : 14,
+            "item" : "13610697"
+          }, {
+            "count" : 13,
+            "item" : "13610787"
+          }, {
+            "count" : 12,
+            "item" : "13610586"
+          }, {
+            "count" : 11,
+            "item" : "13610587"
+          }, {
+            "count" : 10,
+            "item" : "13610631"
+          }, {
+            "count" : 9,
+            "item" : "13610488"
+          }, {
+            "count" : 8,
+            "item" : "13610671"
+          }, {
+            "count" : 7,
+            "item" : "13610610"
+          }, {
+            "count" : 6,
+            "item" : "13610390"
+          }, {
+            "count" : 5,
+            "item" : "13610463"
+          }, {
+            "count" : 4,
+            "item" : "13610525"
+          }, {
+            "count" : 3,
+            "item" : "13610569"
+          }, {
+            "count" : 2,
+            "item" : "13610604"
+          }, {
+            "count" : 1,
+            "item" : "13610635"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020979,
+        "name" : "Age",
+        "dataTypeName" : "number",
+        "fieldName" : "age",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1601913,
+        "width" : 62,
+        "cachedContents" : {
+          "non_null" : 102907,
+          "smallest" : "0",
+          "sum" : "3407738",
+          "null" : 24,
+          "average" : "33.11473466333680",
+          "largest" : "100",
+          "top" : [ {
+            "count" : 20,
+            "item" : "29"
+          }, {
+            "count" : 19,
+            "item" : "31"
+          }, {
+            "count" : 18,
+            "item" : "48"
+          }, {
+            "count" : 17,
+            "item" : "30"
+          }, {
+            "count" : 16,
+            "item" : "28"
+          }, {
+            "count" : 15,
+            "item" : "22"
+          }, {
+            "count" : 14,
+            "item" : "19"
+          }, {
+            "count" : 13,
+            "item" : "46"
+          }, {
+            "count" : 12,
+            "item" : "24"
+          }, {
+            "count" : 11,
+            "item" : "20"
+          }, {
+            "count" : 10,
+            "item" : "27"
+          }, {
+            "count" : 9,
+            "item" : "18"
+          }, {
+            "count" : 8,
+            "item" : "25"
+          }, {
+            "count" : 7,
+            "item" : "36"
+          }, {
+            "count" : 6,
+            "item" : "42"
+          }, {
+            "count" : 5,
+            "item" : "23"
+          }, {
+            "count" : 4,
+            "item" : "35"
+          }, {
+            "count" : 3,
+            "item" : "51"
+          }, {
+            "count" : 2,
+            "item" : "33"
+          }, {
+            "count" : 1,
+            "item" : "26"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 225020980,
+        "name" : "Sex",
+        "dataTypeName" : "text",
+        "fieldName" : "sex",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601914,
+        "width" : 56,
+        "cachedContents" : {
+          "non_null" : 102931,
+          "smallest" : "F",
+          "null" : 0,
+          "largest" : "M",
+          "top" : [ {
+            "count" : 20,
+            "item" : "F"
+          }, {
+            "count" : 19,
+            "item" : "M"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020981,
+        "name" : "Race",
+        "dataTypeName" : "text",
+        "fieldName" : "race",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601915,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 102931,
+          "smallest" : "A",
+          "null" : 0,
+          "largest" : "W",
+          "top" : [ {
+            "count" : 20,
+            "item" : "B"
+          }, {
+            "count" : 19,
+            "item" : "W"
+          }, {
+            "count" : 18,
+            "item" : "U"
+          }, {
+            "count" : 17,
+            "item" : "I"
+          }, {
+            "count" : 16,
+            "item" : "A"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020982,
+        "name" : "ArrestDate",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "arrestdate",
+        "position" : 5,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 1601916,
+        "width" : 124,
+        "cachedContents" : {
+          "non_null" : 102931,
+          "smallest" : "2013-01-01T00:00:00",
+          "null" : 0,
+          "largest" : "2015-10-03T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2013-02-21T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2013-02-20T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2013-02-14T00:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2013-02-13T00:00:00"
+          }, {
+            "count" : 16,
+            "item" : "2013-02-12T00:00:00"
+          }, {
+            "count" : 15,
+            "item" : "2013-02-08T00:00:00"
+          }, {
+            "count" : 14,
+            "item" : "2013-02-07T00:00:00"
+          }, {
+            "count" : 13,
+            "item" : "2013-02-06T00:00:00"
+          }, {
+            "count" : 12,
+            "item" : "2013-02-05T00:00:00"
+          }, {
+            "count" : 11,
+            "item" : "2013-02-01T00:00:00"
+          }, {
+            "count" : 10,
+            "item" : "2013-01-31T00:00:00"
+          }, {
+            "count" : 9,
+            "item" : "2013-01-30T00:00:00"
+          }, {
+            "count" : 8,
+            "item" : "2013-01-29T00:00:00"
+          }, {
+            "count" : 7,
+            "item" : "2013-01-28T00:00:00"
+          }, {
+            "count" : 6,
+            "item" : "2013-01-26T00:00:00"
+          }, {
+            "count" : 5,
+            "item" : "2013-01-25T00:00:00"
+          }, {
+            "count" : 4,
+            "item" : "2013-01-24T00:00:00"
+          }, {
+            "count" : 3,
+            "item" : "2013-01-23T00:00:00"
+          }, {
+            "count" : 2,
+            "item" : "2013-01-22T00:00:00"
+          }, {
+            "count" : 1,
+            "item" : "2013-01-21T00:00:00"
+          } ]
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020983,
+        "name" : "ArrestTime",
+        "dataTypeName" : "text",
+        "fieldName" : "arresttime",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 7177725,
+        "width" : 100,
+        "cachedContents" : {
+          "non_null" : 102931,
+          "smallest" : "0:00",
+          "null" : 0,
+          "largest" : "9:55",
+          "top" : [ {
+            "count" : 20,
+            "item" : "12:00"
+          }, {
+            "count" : 19,
+            "item" : "01:00"
+          }, {
+            "count" : 18,
+            "item" : "14:00"
+          }, {
+            "count" : 17,
+            "item" : "21:30"
+          }, {
+            "count" : 16,
+            "item" : "03:00"
+          }, {
+            "count" : 15,
+            "item" : "02:00"
+          }, {
+            "count" : 14,
+            "item" : "17:00"
+          }, {
+            "count" : 13,
+            "item" : "22:30"
+          }, {
+            "count" : 12,
+            "item" : "10:30"
+          }, {
+            "count" : 11,
+            "item" : "11:10"
+          }, {
+            "count" : 10,
+            "item" : "13:30"
+          }, {
+            "count" : 9,
+            "item" : "19:00"
+          }, {
+            "count" : 8,
+            "item" : "20:00"
+          }, {
+            "count" : 7,
+            "item" : "04:00"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020984,
+        "name" : "ArrestLocation",
+        "dataTypeName" : "text",
+        "fieldName" : "arrestlocation",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601919,
+        "width" : 161,
+        "cachedContents" : {
+          "non_null" : 63767,
+          "smallest" : "0 S GREENE ST",
+          "null" : 39164,
+          "largest" : "W TALBOTT ST",
+          "top" : [ {
+            "count" : 20,
+            "item" : "600 N MONTFORD AVE"
+          }, {
+            "count" : 19,
+            "item" : "2400 W PATAPSCO AVE"
+          }, {
+            "count" : 18,
+            "item" : "3800 E LOMBARD ST"
+          }, {
+            "count" : 17,
+            "item" : "400 E 33RD ST"
+          }, {
+            "count" : 16,
+            "item" : "4400 ARABIA AVE"
+          }, {
+            "count" : 15,
+            "item" : "4800 CURTIS AVE"
+          }, {
+            "count" : 14,
+            "item" : "900 MONTPELIER ST"
+          }, {
+            "count" : 13,
+            "item" : "900 N CALVERT ST"
+          }, {
+            "count" : 12,
+            "item" : "900 N MOUNT ST"
+          }, {
+            "count" : 11,
+            "item" : "900 S CATON AVE"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020985,
+        "name" : "IncidentOffense",
+        "dataTypeName" : "text",
+        "fieldName" : "incidento",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601921,
+        "width" : 151,
+        "cachedContents" : {
+          "non_null" : 102931,
+          "smallest" : "102-Questional Death",
+          "null" : 0,
+          "largest" : "Unknown Offense",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Unknown Offense"
+          }, {
+            "count" : 19,
+            "item" : "4E-Common Assault"
+          }, {
+            "count" : 18,
+            "item" : "4B-Agg. Asslt.- Cut"
+          }, {
+            "count" : 17,
+            "item" : "118-Burglary - Fourth Degree"
+          }, {
+            "count" : 16,
+            "item" : "87-Narcotics"
+          }, {
+            "count" : 15,
+            "item" : "24-Towed Vehicle"
+          }, {
+            "count" : 14,
+            "item" : "6C-Larceny- Shoplifting"
+          }, {
+            "count" : 13,
+            "item" : "7A-Stolen Auto"
+          }, {
+            "count" : 12,
+            "item" : "4C-Agg. Asslt.- Oth."
+          }, {
+            "count" : 11,
+            "item" : "4D-Agg. Asslt.- Hand"
+          }, {
+            "count" : 10,
+            "item" : "5A-Burg. Res. (Force)"
+          }, {
+            "count" : 9,
+            "item" : "5D-Burg. Oth. (Force)"
+          }, {
+            "count" : 8,
+            "item" : "3AF-Robb Hwy-Firearm"
+          }, {
+            "count" : 7,
+            "item" : "4A-Agg. Asslt.- Gun"
+          }, {
+            "count" : 6,
+            "item" : "79-Other"
+          }, {
+            "count" : 5,
+            "item" : "75-Destruct. Of Property"
+          }, {
+            "count" : 4,
+            "item" : "6J-Larceny- Other"
+          }, {
+            "count" : 3,
+            "item" : "3B-Robb Highway (Ua)"
+          }, {
+            "count" : 2,
+            "item" : "6G-Larceny- From Bldg."
+          }, {
+            "count" : 1,
+            "item" : "6D-Larceny- From Auto"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020986,
+        "name" : "IncidentLocation",
+        "dataTypeName" : "text",
+        "fieldName" : "incidentl",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601922,
+        "width" : 133,
+        "cachedContents" : {
+          "non_null" : 63627,
+          "smallest" : "*** District Detail ***",
+          "null" : 39304,
+          "largest" : "York Rd & Woodbourne Av",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2100 Jefferson St"
+          }, {
+            "count" : 19,
+            "item" : "800 Carroll St"
+          }, {
+            "count" : 18,
+            "item" : "2500 W Patapsco Av"
+          }, {
+            "count" : 17,
+            "item" : "3800 E Lombard St"
+          }, {
+            "count" : 16,
+            "item" : "400 E 33Rd St"
+          }, {
+            "count" : 15,
+            "item" : "4100 Newton Av"
+          }, {
+            "count" : 14,
+            "item" : "4800 Curtis Av"
+          }, {
+            "count" : 13,
+            "item" : "2200 Presstman St"
+          }, {
+            "count" : 12,
+            "item" : "2900  Denham Cr S"
+          }, {
+            "count" : 11,
+            "item" : "6000 Harford Rd"
+          }, {
+            "count" : 10,
+            "item" : "6300 Boston St"
+          }, {
+            "count" : 9,
+            "item" : "7500 Harford Rd"
+          }, {
+            "count" : 8,
+            "item" : "800 S BRdway"
+          }, {
+            "count" : 7,
+            "item" : "700 Lennox St"
+          }, {
+            "count" : 6,
+            "item" : "900 Bennett Pl"
+          }, {
+            "count" : 5,
+            "item" : "900 Montpelier St"
+          }, {
+            "count" : 4,
+            "item" : "900 N Calvert St"
+          }, {
+            "count" : 3,
+            "item" : "900 N Mount St"
+          }, {
+            "count" : 2,
+            "item" : "900 S Caton Av"
+          }, {
+            "count" : 1,
+            "item" : "100 W 29Th St"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020987,
+        "name" : "Charge",
+        "dataTypeName" : "text",
+        "fieldName" : "charge",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601923,
+        "width" : 85,
+        "cachedContents" : {
+          "non_null" : 89967,
+          "smallest" : "1 0002",
+          "null" : 12964,
+          "largest" : "999999",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1 1415"
+          }, {
+            "count" : 19,
+            "item" : "4 3550"
+          }, {
+            "count" : 18,
+            "item" : "1 1130"
+          }, {
+            "count" : 17,
+            "item" : "3 0233"
+          }, {
+            "count" : 16,
+            "item" : "1 0521"
+          }, {
+            "count" : 15,
+            "item" : "1 0077"
+          }, {
+            "count" : 14,
+            "item" : "1 0088"
+          }, {
+            "count" : 13,
+            "item" : "1 0573"
+          }, {
+            "count" : 12,
+            "item" : "1 1420"
+          }, {
+            "count" : 11,
+            "item" : "2 0705"
+          }, {
+            "count" : 10,
+            "item" : "2A0696"
+          }, {
+            "count" : 9,
+            "item" : "1 0621"
+          }, {
+            "count" : 8,
+            "item" : "2 0050"
+          }, {
+            "count" : 7,
+            "item" : "2 2220"
+          }, {
+            "count" : 6,
+            "item" : "1 1093"
+          }, {
+            "count" : 5,
+            "item" : "5 3550"
+          }, {
+            "count" : 4,
+            "item" : "1 1635"
+          }, {
+            "count" : 3,
+            "item" : "2 0696"
+          }, {
+            "count" : 2,
+            "item" : "2 2210"
+          }, {
+            "count" : 1,
+            "item" : "1 0233"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020988,
+        "name" : "ChargeDescription",
+        "dataTypeName" : "text",
+        "fieldName" : "chargedescription",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601924,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 102624,
+          "smallest" : "0Sc31736",
+          "null" : 307,
+          "largest" : "Wrong Way",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Asslt-Sec Degree || Common Assault"
+          }, {
+            "count" : 19,
+            "item" : "Cds:Possess-Not Marihuana || Cds"
+          }, {
+            "count" : 18,
+            "item" : "Cds:Possess-Not Marihuana || Cds Violation"
+          }, {
+            "count" : 17,
+            "item" : "Failure To Appear || Failure To Appear"
+          }, {
+            "count" : 16,
+            "item" : "Asslt-Sec Degree || Assault-Sec Degree"
+          }, {
+            "count" : 15,
+            "item" : "Unknown Charge"
+          }, {
+            "count" : 14,
+            "item" : "Violation Of Probation || Violation Of Probation"
+          }, {
+            "count" : 13,
+            "item" : "Cds: Poss Marihuana L/T 10 G || Cds Violation"
+          }, {
+            "count" : 12,
+            "item" : "Cds: Poss Marihuana L/T 10 G || Cds"
+          }, {
+            "count" : 11,
+            "item" : "Prostitution-General || Prostitution"
+          }, {
+            "count" : 10,
+            "item" : "Cds: Poss Marihuana L/T 10 G || Poss Of Marijuana"
+          }, {
+            "count" : 9,
+            "item" : "Trespass-Posted Property || Trespassing"
+          }, {
+            "count" : 8,
+            "item" : "Fta"
+          }, {
+            "count" : 7,
+            "item" : "Fta/Misdemeanor Defendant || Fta/Misdemeanor Defendant"
+          }, {
+            "count" : 6,
+            "item" : "Balto Co Detain"
+          }, {
+            "count" : 5,
+            "item" : "Failure To Obey"
+          }, {
+            "count" : 4,
+            "item" : "Obstructing & Hindering || Drunken Disorderly"
+          }, {
+            "count" : 3,
+            "item" : "Asslt-Sec Degree || Assault"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020989,
+        "name" : "District",
+        "dataTypeName" : "text",
+        "fieldName" : "district",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601925,
+        "width" : 112,
+        "cachedContents" : {
+          "non_null" : 63790,
+          "smallest" : "Central",
+          "null" : 39141,
+          "largest" : "WESTERN",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Eastern"
+          }, {
+            "count" : 19,
+            "item" : "Southwestern"
+          }, {
+            "count" : 18,
+            "item" : "Northwestern"
+          }, {
+            "count" : 17,
+            "item" : "Northeastern"
+          }, {
+            "count" : 16,
+            "item" : "Northern"
+          }, {
+            "count" : 15,
+            "item" : "Central"
+          }, {
+            "count" : 14,
+            "item" : "Southeastern"
+          }, {
+            "count" : 13,
+            "item" : "Western"
+          }, {
+            "count" : 12,
+            "item" : "Southern"
+          }, {
+            "count" : 11,
+            "item" : "WESTERN"
+          }, {
+            "count" : 10,
+            "item" : "SOUTHERN"
+          }, {
+            "count" : 9,
+            "item" : "EASTERN"
+          }, {
+            "count" : 8,
+            "item" : "SOUTHWESTERN"
+          }, {
+            "count" : 7,
+            "item" : "CENTRAL"
+          }, {
+            "count" : 6,
+            "item" : "SOUTHEASTERN"
+          }, {
+            "count" : 5,
+            "item" : "NORTHEASTERN"
+          }, {
+            "count" : 4,
+            "item" : "NORTHWESTERN"
+          }, {
+            "count" : 3,
+            "item" : "NORTHERN"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020990,
+        "name" : "Post",
+        "dataTypeName" : "number",
+        "fieldName" : "post",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1601926,
+        "width" : 56,
+        "cachedContents" : {
+          "non_null" : 63789,
+          "smallest" : "111",
+          "sum" : "33164135",
+          "null" : 39142,
+          "average" : "519.9036667764035",
+          "largest" : "945",
+          "top" : [ {
+            "count" : 20,
+            "item" : "223"
+          }, {
+            "count" : 19,
+            "item" : "224"
+          }, {
+            "count" : 18,
+            "item" : "113"
+          }, {
+            "count" : 17,
+            "item" : "634"
+          }, {
+            "count" : 16,
+            "item" : "732"
+          }, {
+            "count" : 15,
+            "item" : "611"
+          }, {
+            "count" : 14,
+            "item" : "221"
+          }, {
+            "count" : 13,
+            "item" : "911"
+          }, {
+            "count" : 12,
+            "item" : "331"
+          }, {
+            "count" : 11,
+            "item" : "325"
+          }, {
+            "count" : 10,
+            "item" : "121"
+          }, {
+            "count" : 9,
+            "item" : "835"
+          }, {
+            "count" : 8,
+            "item" : "421"
+          }, {
+            "count" : 7,
+            "item" : "412"
+          }, {
+            "count" : 6,
+            "item" : "923"
+          }, {
+            "count" : 5,
+            "item" : "526"
+          }, {
+            "count" : 4,
+            "item" : "833"
+          }, {
+            "count" : 3,
+            "item" : "422"
+          }, {
+            "count" : 2,
+            "item" : "434"
+          }, {
+            "count" : 1,
+            "item" : "424"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "false",
+          "align" : "right"
+        }
+      }, {
+        "id" : 225020991,
+        "name" : "Neighborhood",
+        "dataTypeName" : "text",
+        "fieldName" : "name1",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1601927,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 63786,
+          "smallest" : "Abell",
+          "null" : 39145,
+          "largest" : "YORK-HOMELAND",
+          "top" : [ {
+            "count" : 20,
+            "item" : "DOWNTOWN"
+          }, {
+            "count" : 19,
+            "item" : "Downtown"
+          }, {
+            "count" : 18,
+            "item" : "Brooklyn"
+          }, {
+            "count" : 17,
+            "item" : "Broadway East"
+          }, {
+            "count" : 16,
+            "item" : "Sandtown-Winchester"
+          }, {
+            "count" : 15,
+            "item" : "Belair-Edison"
+          }, {
+            "count" : 14,
+            "item" : "Central Park Heights"
+          }, {
+            "count" : 13,
+            "item" : "Baltimore Highlands"
+          }, {
+            "count" : 12,
+            "item" : "Upton"
+          }, {
+            "count" : 11,
+            "item" : "Coldstream Homestead Montebel"
+          }, {
+            "count" : 10,
+            "item" : "McElderry Park"
+          }, {
+            "count" : 9,
+            "item" : "Curtis Bay"
+          }, {
+            "count" : 8,
+            "item" : "Carrollton Ridge"
+          }, {
+            "count" : 7,
+            "item" : "CARE"
+          }, {
+            "count" : 6,
+            "item" : "Milton-Montford"
+          }, {
+            "count" : 5,
+            "item" : "New Northwood"
+          }, {
+            "count" : 4,
+            "item" : "Washington Village/Pigtown"
+          }, {
+            "count" : 3,
+            "item" : "Highlandtown"
+          }, {
+            "count" : 2,
+            "item" : "Lakeland"
+          }, {
+            "count" : 1,
+            "item" : "Oakenshawe"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 225020992,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 15,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1601928,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 63846,
+          "smallest" : {
+            "longitude" : "-76.6103098702",
+            "latitude" : "39.2971875603"
+          },
+          "null" : 39085,
+          "largest" : {
+            "longitude" : "-76.6004661276",
+            "latitude" : "39.2239256454"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-76.5836170991",
+              "latitude" : "39.2977958196"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-76.6489626873",
+              "latitude" : "39.2519644621"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-76.5705202946",
+              "latitude" : "39.3387567178"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-76.5866632826",
+              "latitude" : "39.2230053246"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-76.6713695091",
+              "latitude" : "39.2735450721"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-76.6004661276",
+              "latitude" : "39.2239256454"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Creative Commons Attribution 3.0 Unported",
+        "logoUrl" : "images/licenses/cc30by.png",
+        "termsLink" : "http://creativecommons.org/licenses/by/3.0/legalcode"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Updated" : {
+            "Frequency" : "Monthly"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : false,
+            "columnFieldName" : "arrestdate"
+          } ]
+        },
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "ye7n-cr57",
+        "displayName" : "Jeffrey Cooper",
+        "roleName" : "publisher",
+        "screenName" : "Jeffrey Cooper",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 225020982,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 225020982
+      } ],
+      "tableAuthor" : {
+        "id" : "ye7n-cr57",
+        "displayName" : "Jeffrey Cooper",
+        "roleName" : "publisher",
+        "screenName" : "Jeffrey Cooper",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards" ]
+      },
+      "tags" : [ "arrests", "crime", "police" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [[ 11197, "758879EF-6F46-4722-B909-2E6F1F3E09D8", 11197, 1444219079, "883508", 1444219079, "883508", null, "15067191", "19", "M", "B", "2015-04-29T00:00:00", "12:09", "200 E PRATT ST", "49-Family Disturbance", "200 E Pratt St", "1 1415", "Asslt-Sec Degree || Assault", "Central", "111", "INNER HARBOR", [ null, "39.2865939844", "-76.6120382377", null, false ] ]
+, [ 11198, "047EA683-29A5-46DA-A4D0-20B70721CAAD", 11198, 1444219079, "883508", 1444219079, "883508", null, "15067321", "23", "F", "B", "2015-04-29T00:00:00", "20:15", "1800 WILKENS AVE", "4E-Common Assault", "1800 Wilkens Ave", "1 1415", "Asslt-Sec Degree || Comon Assault", "Southern", "935", "CARROLLTON RIDGE", [ null, "39.2824940745", "-76.6450803606", null, false ] ]
+, [ 11199, "F1A0007F-83BB-4096-B486-DF467B486F52", 11199, 1444219079, "883508", 1444219079, "883508", null, "15067323", "31", "M", "B", "2015-04-29T00:00:00", "21:50", "1800 WILKENS AVE", "4E-Common Assault", "1800 Wilkens Ave", "1 1415", "Asslt-Sec Degree || Common Assault", "Southern", "935", "CARROLLTON RIDGE", [ null, "39.2824940745", "-76.6450803606", null, false ] ]
+, [ 11200, "F82183F3-917A-4071-9C81-00F6A03978EB", 11200, 1444219079, "883508", 1444219079, "883508", null, "15067348", "33", "F", "B", "2015-04-29T00:00:00", "15:39", "1800 RUTLAND AVE", "4B-Agg. Asslt.- Cut", "1800 Rutland Ave", "1 1415", "Asslt-Sec Degree || Agg. Assault", "Eastern", "321", "BROADWAY EAST", [ null, "39.3111516009", "-76.5929517946", null, false ] ]
+, [ 11201, "292894D4-C7A6-49BA-A553-D6B3BEB1ABE1", 11201, 1444219079, "883508", 1444219079, "883508", null, "15067407", "24", "F", "B", "2015-04-29T00:00:00", "15:39", "1800 E NORTH AVE", "4B-Agg. Asslt.- Cut", "1800 Rutland Ave", "1 1415", "Asslt-Sec Degree || Aggrevated Assault", "Eastern", "312", "BROADWAY EAST", [ null, "39.3122228166", "-76.5922891671", null, false ] ]
+, [ 11202, "B9DBA6D2-5FBE-43C9-B145-1F9647CBF2AA", 11202, 1444219079, "883508", 1444219079, "883508", null, "15067345", "26", "M", "B", "2015-04-29T00:00:00", "23:00", "1700 E 30TH ST", "4E-Common Assault", "1700 E 30Th St", "1 1415", "Asslt-Sec Degree || Assault", "Northeastern", "412", "COLDSTREAM HOMESTEAD MONTEBELLO", [ null, "39.3253667573", "-76.5913801561", null, false ] ]
+, [ 11203, "6DA47A73-41C9-4D86-85D2-2542F0A7C961", 11203, 1444219079, "883508", 1444219079, "883508", null, "15067665", "28", "M", "B", "2015-04-29T00:00:00", "22:30", "1600 W NORTH AVE", "Unknown Offense", null, null, "Disorderly/  Curfew", "Western", "733", "PENN NORTH", [ null, "39.3100495075", "-76.6434028230", null, false ] ]
+, [ 11204, "A7A32DD6-C9CC-486D-A639-AAD9E092414C", 11204, 1444219079, "883508", 1444219079, "883508", null, "15066665", "21", "F", "W", "2015-04-29T00:00:00", "04:00", "1500 W NORTH AVE", "Unknown Offense", "1500 W North Ave", null, "Curfew Violation", "Western", "733", "PENN NORTH", [ null, "39.3101336559", "-76.6415206496", null, false ] ]
+, [ 11205, "99484C6A-0377-4915-B376-F4E2BA65B15E", 11205, 1444219079, "883508", 1444219079, "883508", null, "15066655", "20", "M", "W", "2015-04-29T00:00:00", "04:00", "1500 W NORTH AVE", "Unknown Offense", "1500 W North Ave", null, "Curfew Violation", "Western", "733", "PENN NORTH", [ null, "39.3101336559", "-76.6415206496", null, false ] ]
+, [ 11206, "0EF34FA5-4F03-445F-87E6-BB3FF331AD25", 11206, 1444219079, "883508", 1444219079, "883508", null, "15066669", "20", "M", "W", "2015-04-29T00:00:00", "04:00", "1500 W NORTH AVE", "Unknown Offense", "1500 W North Ave", null, "Curfew", "Western", "733", "PENN NORTH", [ null, "39.3101336559", "-76.6415206496", null, false ] ]
+, [ 11207, "26C1F4D3-5DE4-4858-AB31-0032653500E2", 11207, 1444219079, "883508", 1444219079, "883508", null, "15066672", "19", "M", "W", "2015-04-29T00:00:00", "04:00", "1500 W NORTH AVE", "Unknown Offense", "1500 W North Ave", null, "Curfew Violation", "Western", "733", "PENN NORTH", [ null, "39.3101336559", "-76.6415206496", null, false ] ]
+, [ 11208, "0CF1919A-9C4E-4E11-9022-66499976A7E8", 11208, 1444219079, "883508", 1444219079, "883508", null, "15067341", "30", "M", "B", "2015-04-29T00:00:00", "23:05", "1500 SPRUCE ST", "Unknown Offense", "700 E Patapsco Ave", "4 3550", "Cds:Possess-Not Marihuana || Poss Heroin", "Southern", "911", "CURTIS BAY", [ null, "39.2298515352", "-76.5898906362", null, false ] ]
+, [ 11209, "CE221885-76B8-49B4-9091-AF7DDDD9F4F7", 11209, 1444219079, "883508", 1444219079, "883508", null, "15067330", "46", "M", "W", "2015-04-29T00:00:00", "22:40", "1500 SPRUCE ST", "Unknown Offense", "1500 Spruce St", null, "Curfew Violation", "Southern", "911", "CURTIS BAY", [ null, "39.2298515352", "-76.5898906362", null, false ] ]
+, [ 11210, "FD7A959D-BBAF-4010-B522-7F7CC25C5F3A", 11210, 1444219079, "883508", 1444219079, "883508", null, "15067338", "36", "M", "B", "2015-04-29T00:00:00", "10:40", "1500 SPRUCE ST", "Unknown Offense", "1500 Spruce St", null, "Curfew Violation", "Southern", "911", "CURTIS BAY", [ null, "39.2298515352", "-76.5898906362", null, false ] ]
+, [ 11211, "43B0CC32-F80D-42D4-AEFE-815133DB0A36", 11211, 1444219079, "883508", 1444219079, "883508", null, "15066653", "27", "M", "B", "2015-04-29T00:00:00", "02:45", "1400 PENNSYLVANIA AVE", "Unknown Offense", "1400 Pennsylvania Ave", null, "Curfew", "Central", "132", "UPTON", [ null, "39.3012518539", "-76.6318680051", null, false ] ]
+, [ 11212, "71C74EAF-F05F-41CB-A896-182C62E92CE7", 11212, 1444219079, "883508", 1444219079, "883508", null, "15066656", "27", "M", "B", "2015-04-29T00:00:00", "02:05", "1300 W PRATT ST", "Unknown Offense", "1300 W Pratt St", null, "Emergercy Curfew", "Southern", "933", "UNION SQUARE", [ null, "39.2856002019", "-76.6380755469", null, false ] ]
+, [ 11213, "C91A51A4-8E2D-42C8-9777-EF8E935B1DF8", 11213, 1444219079, "883508", 1444219079, "883508", null, "15067333", "30", "M", "B", "2015-04-29T00:00:00", "22:30", "1200 E NORTH AVE", "Unknown Offense", "1300 E North Ave", null, "Curfew Violation", "Eastern", "312", "EAST BALTIMORE MIDWAY", [ null, "39.3118076983", "-76.6024793213", null, false ] ]
+, [ 11214, "041B6E39-5F67-4664-A6DC-710E99B9827C", 11214, 1444219079, "883508", 1444219079, "883508", null, "15066586", "23", "M", "B", "2015-04-29T00:00:00", "00:50", "100 E FAYETTE ST", "Unknown Offense", "N Calvert St & E Baltimore St", null, "Curfew Violation", "Central", "112", "DOWNTOWN", [ null, "39.2904646095", "-76.6137012298", null, false ] ]
+, [ 11215, "2D27252F-E444-433A-97C9-2FA003DBAB77", 11215, 1444219079, "883508", 1444219079, "883508", null, "15067277", "19", "M", "B", "2015-04-29T00:00:00", "16:27", "100 CALVERT ST", "Unknown Offense", "UNIT S Calvert St", "2 0050", "Dis.Erly Conduct || Disorderly", "Southern", "912", "BROOKLYN", [ null, "39.2349180603", "-76.6112718541", null, false ] ]
+, [ 11216, "E3DC06B4-2357-4DDC-A972-9DB70C3625B9", 11216, 1444219079, "883508", 1444219079, "883508", null, "15067279", "19", "F", "B", "2015-04-29T00:00:00", "16:25", "100 CALVERT ST", "Unknown Offense", "UNIT S Calvert St", "2 0050", "Dis.Erly Conduct || Disorderly Conduct", "Southern", "912", "BROOKLYN", [ null, "39.2349180603", "-76.6112718541", null, false ] ]
+, [ 11217, "FDEB9EE7-2BF2-4694-BA3B-EF3D4B2CBC21", 11217, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066615", "23", "M", "B", "2015-04-29T00:00:00", "01:30", null, "87-Narcotics", "1200 N Eden St", "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11218, "1D2FD525-23DB-48A5-A62E-C17F57C0AA68", 11218, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067283", "32", "M", "B", "2015-04-29T00:00:00", "16:28", null, "6C-Larceny- Shoplifting", "1000 W 41St St", "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11219, "243D664C-F75E-41CA-8CEB-C65436C4A0C8", 11219, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066607", "24", "F", "B", "2015-04-29T00:00:00", "01:30", null, "Unknown Offense", null, "1 0088", "Violation Of Probation || Violation Of Probation", null, null, null, [ null, null, null, null, null ] ]
+, [ 11220, "4085E6F4-45B6-4213-BDEE-6F0F9ED1F3D2", 11220, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066613", "24", "M", "B", "2015-04-29T00:00:00", "01:30", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11221, "C7F578EB-2D08-4856-ABFB-45A6D0A40A80", 11221, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066609", "24", "F", "B", "2015-04-29T00:00:00", "01:30", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11222, "EEFEA136-B24E-4067-936D-EDD4A839D998", 11222, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066622", "23", "M", "B", "2015-04-29T00:00:00", "01:30", null, "Unknown Offense", null, "1 1415", "Asslt-Sec Degree || Assault-Sec Degree", null, null, null, [ null, null, null, null, null ] ]
+, [ 11223, "6311E670-E5B2-44E3-AAEB-F5D6C3FC90D4", 11223, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066624", "23", "M", "B", "2015-04-29T00:00:00", "01:30", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11224, "966AFFC6-9911-42F8-8013-A537499DBE3F", 11224, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066642", "28", "M", "B", "2015-04-29T00:00:00", "03:00", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11225, "47347A5A-017F-40D6-9448-C77C5BEF1791", 11225, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066666", "29", "M", "B", "2015-04-29T00:00:00", "03:00", null, "Unknown Offense", null, null, "Failure To Pay Fine", null, null, null, [ null, null, null, null, null ] ]
+, [ 11226, "95431BF7-F0AD-4C6F-97B8-E1C171B9D11C", 11226, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066670", "38", "M", "B", "2015-04-29T00:00:00", "03:50", null, "Unknown Offense", null, "2 2220", "Trespass: Private Property || Trespass: Private Proper", null, null, null, [ null, null, null, null, null ] ]
+, [ 11227, "4707C8C9-F648-42C7-B783-14EB2C66187B", 11227, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067166", "27", "M", "B", "2015-04-29T00:00:00", "12:57", null, "Unknown Offense", null, "1 1415", "Asslt-Sec Degree || Assault-Sec Degree", null, null, null, [ null, null, null, null, null ] ]
+, [ 11228, "DFE8B89B-1B30-49BC-9C94-4E46C13668B6", 11228, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067179", "26", "M", "B", "2015-04-29T00:00:00", "12:55", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11229, "07C7B40D-FA2E-44C9-BC85-5C503A42DE8E", 11229, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067288", "48", "M", "B", "2015-04-29T00:00:00", "19:44", null, "Unknown Offense", null, "1 5212", "Handgun On Person || Handgun On Person", null, null, null, [ null, null, null, null, null ] ]
+, [ 11230, "FB1885A0-B874-4260-8752-0D4450935C3F", 11230, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067281", "32", "M", "B", "2015-04-29T00:00:00", "16:28", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11231, "E1816519-394D-4E4D-AD3D-1733260BB088", 11231, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067307", "45", "M", "W", "2015-04-29T00:00:00", "19:55", null, "Unknown Offense", null, "1 0088", "Violation Of Probation || Violation Of Probation", null, null, null, [ null, null, null, null, null ] ]
+, [ 11232, "0220970C-6AF7-4B91-BE2F-B6B9C5C3A92D", 11232, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067293", "29", "M", "B", "2015-04-29T00:00:00", "17:00", null, "Unknown Offense", null, "1 1415", "Asslt-Sec Degree || Assault-Sec Degree", null, null, null, [ null, null, null, null, null ] ]
+, [ 11233, "01684E39-2C6F-472D-886D-7D2832654660", 11233, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067298", "35", "F", "B", "2015-04-29T00:00:00", "18:00", null, "Unknown Offense", null, "1 0621", "Theft: Less $1,000 Value || Theft: Less $1,000 Value", null, null, null, [ null, null, null, null, null ] ]
+, [ 11234, "BAC6FA1E-AA79-4F9D-9D01-61EFC2392211", 11234, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067304", "23", "F", "B", "2015-04-29T00:00:00", "19:30", null, "Unknown Offense", null, "1 0088", "Violation Of Probation || Violation Of Probation", null, null, null, [ null, null, null, null, null ] ]
+, [ 11235, "1E9C1413-E48F-440C-816F-AE64503F2CAE", 11235, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067314", "22", "M", "B", "2015-04-29T00:00:00", "21:07", null, "Unknown Offense", null, null, "Fugitive From Penn", null, null, null, [ null, null, null, null, null ] ]
+, [ 11236, "4BE89561-FC3D-47AB-94F8-C12CA7281307", 11236, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15067351", "29", "M", "B", "2015-04-29T00:00:00", "18:27", null, "Unknown Offense", null, "1 1415", "Asslt-Sec Degree || Assault-Sec Degree", null, null, null, [ null, null, null, null, null ] ]
+, [ 11185, "F1C47DFD-DF95-42A4-8219-69954D55F67E", 11185, 1444219079, "883508", 1444219079, "883508", null, "15067346", "44", "M", "W", "2015-04-29T00:00:00", "19:34", "900 QUANTRIL WAY", "Unknown Offense", "900 Alricks Way", "1 0173", "Child Abuse:Custodian || Child Abuse Physical", "Northeastern", "431", "ARMISTEAD GARDENS", [ null, "39.3032074292", "-76.5475397701", null, false ] ]
+, [ 11186, "59CFEC8F-E53D-43D2-AFCA-72E1A9E6D1ED", 11186, 1444219079, "883508", 1444219079, "883508", null, "15066643", "29", "M", "B", "2015-04-29T00:00:00", "03:30", "600 N EUTAW ST", "Unknown Offense", "600 N Eutaw St", null, "Curfew Violation", "Central", "123", "SETON HILL", [ null, "39.2959074352", "-76.6213663079", null, false ] ]
+, [ 11187, "26C39D7E-ABD0-4CBD-9E9B-DE972D7FB8D7", 11187, 1444219079, "883508", 1444219079, "883508", null, "15067383", "37", "M", "B", "2015-04-29T00:00:00", "22:15", "5100 SINCLAIR LN", "75-Destruct. Of Property", "5100 Sinclair Ln", "3 4025", "Mal Dest Prop/Valu - $500 || Destruction Of Property", "Northeastern", "433", "FRANKFORD", [ null, "39.3222229718", "-76.5471642494", null, false ] ]
+, [ 11188, "67A8EC4D-E14A-4601-B830-5259DDE8257B", 11188, 1444219079, "883508", 1444219079, "883508", null, "15067353", "32", "M", "B", "2015-04-29T00:00:00", "23:20", "500 DOLPHIN ST", "Unknown Offense", null, "3 4025", "Mal Dest Prop/Valu - $500 || Destruction Of Property", "Central", "124", "UPTON", [ null, "39.2999227865", "-76.6290360371", null, false ] ]
+, [ 11189, "E3975D4D-DB62-4DA2-9E50-C6199E731CF0", 11189, 1444219079, "883508", 1444219079, "883508", null, "15066663", "27", "M", "B", "2015-04-29T00:00:00", "02:50", "3600 SINCLAIR LN", "Unknown Offense", "3600 Sinclair Ln", null, "Curfew Violation", "Northeastern", "413", "BELAIR-EDISON", [ null, "39.3135330779", "-76.5673216979", null, false ] ]
+, [ 11190, "9B264C51-87E6-41B1-A9BB-9598DDCC557D", 11190, 1444219079, "883508", 1444219079, "883508", null, "15066866", "25", "F", "B", "2015-04-29T00:00:00", "09:00", "3600 N ROGERS AVE", "Unknown Offense", null, null, "Driving Without License", "Northwestern", "626", "GROVE PARK", [ null, "39.3345869115", "-76.7053287194", null, false ] ]
+, [ 11191, "A1F9A4FD-29DC-490C-8535-9F6D155C11D9", 11191, 1444219079, "883508", 1444219079, "883508", null, "15066598", "36", "F", "B", "2015-04-29T00:00:00", "00:00", "3400 BELAIR RD", "Unknown Offense", "3400 Belair Rd", null, "Curfew Violation", "Northeastern", "415", "BELAIR-EDISON", [ null, "39.3227759996", "-76.5720549001", null, false ] ]
+, [ 11192, "043B403E-DBD3-4B4A-8D7E-AA490D60226E", 11192, 1444219079, "883508", 1444219079, "883508", null, "15067151", "47", "M", "B", "2015-04-29T00:00:00", "12:30", "3000 SAINT PAUL ST", "Unknown Offense", "3000 Saint Paul St", "2 3030", "Burglary-Fourth Degree || Burglary", "Northern", "512", "CHARLES VILLAGE", [ null, "39.3247431380", "-76.6158730818", null, false ] ]
+, [ 11193, "05B32B03-5D21-40B0-A8EB-A640258018F9", 11193, 1444219079, "883508", 1444219079, "883508", null, "15067290", "20", "M", "B", "2015-04-29T00:00:00", "19:15", "300 W LEXINGTON ST", "Unknown Offense", "300 W Lexington St", "2 0050", "Dis.Erly Conduct || Cds Marijuana", "Central", "113", "DOWNTOWN", [ null, "39.2915557496", "-76.6197949846", null, false ] ]
+, [ 11194, "FABE9A28-C8D5-4C64-9F66-4F619F2D81DF", 11194, 1444219079, "883508", 1444219079, "883508", null, "15067289", "29", "M", "B", "2015-04-29T00:00:00", "19:15", "300 N EUTAW ST", "Unknown Offense", "300 N Eutaw St", "1 1415", "Asslt-Sec Degree || Assault On Police/2Nd Deg Assa", "Central", "121", "DOWNTOWN", [ null, "39.2929794458", "-76.6211885580", null, false ] ]
+, [ 11195, "71C20865-A4B5-4AA2-84F8-E9B536D0E69E", 11195, 1444219079, "883508", 1444219079, "883508", null, "15067301", "27", "M", "B", "2015-04-29T00:00:00", "18:45", "2300 WASHINGTON BLVD", "Unknown Offense", "2400 Washington Blvd", "3 0233", "Cds:P W/I Dist:Narc || Poss W/I Heroin", "Southwestern", "834", "MORRELL PARK", [ null, "39.2693976937", "-76.6494015879", null, false ] ]
+, [ 11196, "8AEA0C18-5980-4034-81B5-8455E1459B60", 11196, 1444219079, "883508", 1444219079, "883508", null, "15066631", "49", "M", "B", "2015-04-29T00:00:00", "02:12", "200 N EUTAW ST", "Unknown Offense", "200 N Eutaw St", null, "Curfew Violation", "Central", "113", "DOWNTOWN", [ null, "39.2915696972", "-76.6210983902", null, false ] ]
+, [ 11262, "DCCDDEAD-F0BE-4450-A010-A2B3B694F6AD", 11262, 1444219079, "883508", 1444219079, "883508", null, "15066566", "23", "F", "B", "2015-04-28T00:00:00", "22:00", "3400 BELAIR RD", "5D-Burg. Oth. (Force)", "Belair Rd & Lake Av", "1 1130", "Burglary-4Th Degree-Store || B&E", "Northeastern", "415", "BELAIR-EDISON", [ null, "39.3226087466", "-76.5722668124", null, false ] ]
+, [ 11263, "E789AEFB-9AF6-45F9-BAC5-8D3EB79FB647", 11263, 1444219079, "883508", 1444219079, "883508", null, "15066632", "39", "M", "W", "2015-04-28T00:00:00", "18:50", "3100 SAINT PAUL ST", "5A-Burg. Res. (Force)", "3100 Saint Paul St", "2 3000", "Burglary-First Degree || Breaking And Entering", "Northern", "515", "CHARLES VILLAGE", [ null, "39.3259927360", "-76.6159555285", null, false ] ]
+, [ 11264, "4F2417CC-08B1-410C-94F5-37CFCAB9A240", 11264, 1444219079, "883508", 1444219079, "883508", null, "15066439", "20", "F", "B", "2015-04-28T00:00:00", "11:45", "3100 E MONUMENT ST", "Unknown Offense", "3100 E Monument St", "1 1415", "Asslt-Sec Degree || Domestic Assault", "Eastern", "334", "MADISON-EASTEND", [ null, "39.2992024538", "-76.5737250073", null, false ] ]
+, [ 11265, "44D53FE4-F3B5-4441-9F91-6EF9D824097E", 11265, 1444219079, "883508", 1444219079, "883508", null, "15066521", "26", "M", "B", "2015-04-28T00:00:00", "21:15", "300 W LEXINGTON ST", "75-Destruct. Of Property", "300 W Lexington St", "3 4030", "Mal Destr Prop Value + $500 || Destruction Of Property", "Central", "113", "DOWNTOWN", [ null, "39.2914824602", "-76.6200860874", null, false ] ]
+, [ 11266, "A17549C1-D38D-4CA8-A9E2-AD6378F485B7", 11266, 1444219079, "883508", 1444219079, "883508", null, "15066385", "59", "M", "B", "2015-04-28T00:00:00", "07:40", "300 W LEXINGTON ST", "5D-Burg. Oth. (Force)", "200 N Paca St", "2 3040", "Burglary-4Th Degree Theft || Burglary", "Central", "113", "DOWNTOWN", [ null, "39.2914824602", "-76.6200860874", null, false ] ]
+, [ 11267, "F2A469E3-8422-4581-A3AA-8A99A2A2518C", 11267, 1444219079, "883508", 1444219079, "883508", null, "15066648", "20", "F", "B", "2015-04-28T00:00:00", "22:00", "300 S MACON ST", "111-Protective Order", "300 S Macon St", "2 0105", "Peace Order: Fail To Comply || Violation Of Peace Orde", "Southeastern", "231", "GREEKTOWN", [ null, "39.2887761529", "-76.5573870701", null, false ] ]
+, [ 11268, "45939F75-C55B-4136-9C7A-C058518B087F", 11268, 1444219079, "883508", 1444219079, "883508", null, "15066667", "25", "M", "W", "2015-04-28T00:00:00", "22:00", "300 S MACON ST", "111-Protective Order", "300 S Macon St", "1 1415", "Asslt-Sec Degree || 2Nd Degree Assault", "Southeastern", "231", "GREEKTOWN", [ null, "39.2887761529", "-76.5573870701", null, false ] ]
+, [ 11269, "AC8716D3-C817-4DEA-92EE-1C627945FDBF", 11269, 1444219079, "883508", 1444219079, "883508", null, "15066368", "48", "M", "B", "2015-04-28T00:00:00", "05:17", "300 N EXETER ST", "24-Towed Vehicle", "300 N Exeter St", "2 3040", "Burglary-4Th Degree Theft || Commerical Burglary", "Southeastern", "211", "JONESTOWN", [ null, "39.2939929266", "-76.6056267677", null, false ] ]
+, [ 11270, "75FB2D0D-0074-4302-9229-C83346A3A00A", 11270, 1444219079, "883508", 1444219079, "883508", null, "15066370", "25", "M", "B", "2015-04-28T00:00:00", "07:01", "300 N EXETER ST", "24-Towed Vehicle", "300 N Exeter St", "1 1285", null, "Southeastern", "211", "JONESTOWN", [ null, "39.2939929266", "-76.6056267677", null, false ] ]
+, [ 11271, "ED6CC2C6-3C50-4673-952E-9086FFEAE899", 11271, 1444219079, "883508", 1444219079, "883508", null, "15066378", "27", "M", "B", "2015-04-28T00:00:00", "02:45", "300 N EXETER ST", "24-Towed Vehicle", "300 N Exeter St", "1 1130", "Burglary-4Th Degree-Store || Commerical Burglary", "Southeastern", "211", "JONESTOWN", [ null, "39.2939929266", "-76.6056267677", null, false ] ]
+, [ 11272, "8C5E0C11-937C-4B7C-B037-43D293E32C71", 11272, 1444219079, "883508", 1444219079, "883508", null, "15066341", "33", "M", "B", "2015-04-28T00:00:00", "03:00", "2900 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2900 E Monument St", "1 1130", "Burglary-4Th Degree-Store || B + E", "Eastern", "334", "ELLWOOD PARK/MONUMENT", [ null, "39.2990710758", "-76.5758352456", null, false ] ]
+, [ 11273, "0E21E3D4-9C70-4BFE-9E59-2E6FFCEAD666", 11273, 1444219079, "883508", 1444219079, "883508", null, "15066534", "27", "M", "B", "2015-04-28T00:00:00", "21:15", "2700 PENNSYLVANIA AVE", "Unknown Offense", "2700 Pennsylvania Ave", "2 3030", "Burglary-Fourth Degree || B&E", "Western", "736", "PENN NORTH", [ null, "39.3127057983", "-76.6456881047", null, false ] ]
+, [ 11274, "AF16918D-8DB5-40B7-920B-71D302C4F0F3", 11274, 1444219079, "883508", 1444219079, "883508", null, "15066527", "22", "M", "B", "2015-04-28T00:00:00", "21:15", "2700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3030", "Burglary-Fourth Degree || Burglary", "Western", "736", "PENN NORTH", [ null, "39.3127057983", "-76.6456881047", null, false ] ]
+, [ 11275, "F852A7CC-BDF4-4417-BD68-A97C3FF60096", 11275, 1444219079, "883508", 1444219079, "883508", null, "15066576", "45", "M", "B", "2015-04-28T00:00:00", "23:04", "2600 REISTERSTOWN RD", "Unknown Offense", "2600 Reisterstown Rd", null, "Curfew Violation", "Western", "736", "MONDAWMIN", [ null, "39.3174962261", "-76.6516167836", null, false ] ]
+, [ 11276, "8B30CCC4-D6F7-4E43-A29F-A76122A01924", 11276, 1444219079, "883508", 1444219079, "883508", null, "15066485", "26", "F", "B", "2015-04-28T00:00:00", "12:15", "2500 GREENMOUNT AVE", "Unknown Offense", "Greenmount Av & E 24Th St", "1 0621", "Theft: Less $1,000 Value || Poss Of Stolen Prop", "Northern", "513", "HARWOOD", [ null, "39.3182492114", "-76.6094963096", null, false ] ]
+, [ 11277, "4C0BD3F9-9363-4300-AE1B-AB6AFBD907A2", 11277, 1444219079, "883508", 1444219079, "883508", null, "15066467", "24", "F", "B", "2015-04-28T00:00:00", "12:15", "2500 GREENMOUNT AVE", "Unknown Offense", "Greenmount Av & E 24Th St", "1 0621", "Theft: Less $1,000 Value || Possession Of Stolen Prope", "Northern", "513", "HARWOOD", [ null, "39.3182492114", "-76.6094963096", null, false ] ]
+, [ 11278, "A8EA9D41-416D-438F-8529-BD883515AB44", 11278, 1444219079, "883508", 1444219079, "883508", null, "15066226", "18", "F", "B", "2015-04-28T00:00:00", "00:40", "2400 N CHARLES ST", "5D-Burg. Oth. (Force)", "E 25Th St & N Charles St", "2 3040", "Burglary-4Th Degree Theft || Disordely", "Northern", "516", "OLD GOUCHER", [ null, "39.3164452588", "-76.6169382938", null, false ] ]
+, [ 11279, "1709CAA1-0032-44FC-9CC1-46E45D91DFC3", 11279, 1444219079, "883508", 1444219079, "883508", null, "15066279", "22", "M", "B", "2015-04-28T00:00:00", "00:40", "2400 N CHARLES ST", "5D-Burg. Oth. (Force)", "E 25Th St & N Charles St", "2 3040", "Burglary-4Th Degree Theft || Looting", "Northern", "516", "OLD GOUCHER", [ null, "39.3164452588", "-76.6169382938", null, false ] ]
+, [ 11280, "F488E9DD-4842-4DD9-B2D3-59777B77668D", 11280, 1444219079, "883508", 1444219079, "883508", null, "15066237", "19", "M", "B", "2015-04-28T00:00:00", "00:45", "2400 N CHARLES ST", "5D-Burg. Oth. (Force)", "E 25Th St & N Charles St", "2 3040", "Burglary-4Th Degree Theft || Looting", "Northern", "516", "OLD GOUCHER", [ null, "39.3173617659", "-76.6169951779", null, false ] ]
+, [ 11281, "D259585F-D01A-4A9C-8FAD-7E72FBB9E347", 11281, 1444219079, "883508", 1444219079, "883508", null, "15066247", "22", "M", "B", "2015-04-28T00:00:00", "00:50", "2400 FREDERICK AVE", "5D-Burg. Oth. (Force)", "2400 Frederick Ave", "2 3040", "Burglary-4Th Degree Theft || B&E", "Southwestern", "836", "MILLHILL", [ null, "39.2840038777", "-76.6549241420", null, false ] ]
+, [ 11282, "3E44A3C9-2D0A-455B-B153-EE9D5E1D28A3", 11282, 1444219079, "883508", 1444219079, "883508", null, "15066282", "19", "M", "B", "2015-04-28T00:00:00", "00:50", "2400 FREDERICK AVE", "5D-Burg. Oth. (Force)", "2400 Frederick Ave", "1 0621", "Theft: Less $1,000 Value || B And E", "Southwestern", "836", "MILLHILL", [ null, "39.2840038777", "-76.6549241420", null, false ] ]
+, [ 11283, "BED8BA03-F058-4037-9201-950E30378266", 11283, 1444219079, "883508", 1444219079, "883508", null, "15066295", "26", "F", "W", "2015-04-28T00:00:00", "00:50", "2400 FREDERICK AVE", "5D-Burg. Oth. (Force)", "2400 Frederick Ave", "1 0621", "Theft: Less $1,000 Value || B&E", "Southwestern", "836", "MILLHILL", [ null, "39.2840038777", "-76.6549241420", null, false ] ]
+, [ 11284, "5D10DF25-5E1A-4D83-9169-4EE389FD60B8", 11284, 1444219079, "883508", 1444219079, "883508", null, "15066328", "27", "M", "B", "2015-04-28T00:00:00", "00:50", "2400 FREDERICK AVE", "5D-Burg. Oth. (Force)", "2400 Frederick Ave", "1 0621", "Theft: Less $1,000 Value || B + E", "Southwestern", "836", "MILLHILL", [ null, "39.2840038777", "-76.6549241420", null, false ] ]
+, [ 11285, "45AFFF65-0F46-441D-B68C-ED0E3842A552", 11285, 1444219079, "883508", 1444219079, "883508", null, "15066583", "53", "F", "B", "2015-04-28T00:00:00", "23:50", "2400 FREDERICK AVE", "Unknown Offense", "2400 Frederick Ave", null, "Curfew Violation", "Southwestern", "836", "SHIPLEY HILL", [ null, "39.2842183923", "-76.6545720014", null, false ] ]
+, [ 11286, "D2933068-303F-4BB0-A987-D3D7705FE33D", 11286, 1444219079, "883508", 1444219079, "883508", null, "15066597", "26", "M", "B", "2015-04-28T00:00:00", "23:50", "2400 FREDERICK AVE", "Unknown Offense", "2400 Frederick Ave", null, "Curfew Violation", "Southwestern", "836", "SHIPLEY HILL", [ null, "39.2842183923", "-76.6545720014", null, false ] ]
+, [ 11287, "8568E02A-7F2A-4503-8E78-21DDEE83230D", 11287, 1444219079, "883508", 1444219079, "883508", null, "15066362", "18", "M", "B", "2015-04-28T00:00:00", "03:00", "2400 FREDERICK AVE", "Unknown Offense", null, "1 1130", "Burglary-4Th Degree-Store || Disorderly", "Southwestern", "836", "MILLHILL", [ null, "39.2834167331", "-76.6558271778", null, false ] ]
+, [ 11288, "30A83910-B664-4B28-BEC1-945487705E74", 11288, 1444219079, "883508", 1444219079, "883508", null, "15066256", "39", "M", "B", "2015-04-28T00:00:00", "00:50", "2400 FREDERICK AVE", "Unknown Offense", null, "1 0621", "Theft: Less $1,000 Value || B + E", "Southwestern", "836", "MILLHILL", [ null, "39.2838488022", "-76.6551744147", null, false ] ]
+, [ 11289, "2D6D473E-2BBC-4142-B148-60BA16AF38DB", 11289, 1444219079, "883508", 1444219079, "883508", null, "15066628", "50", "M", "W", "2015-04-28T00:00:00", "22:35", "2300 GWYNNS FALLS PKWY", "Unknown Offense", "2300 Gwynns Falls Pkwy", "1 0175", "Handgun In Vehicle || Hgv", "Western", "736", "MONDAWMIN", [ null, "39.3156273938", "-76.6542074981", null, false ] ]
+, [ 11290, "FE953C04-19AD-433A-B7B1-0CF265ECEC42", 11290, 1444219079, "883508", 1444219079, "883508", null, "15066578", "21", "M", "B", "2015-04-28T00:00:00", "22:45", "2200 W NORTH AVE", "Unknown Offense", "Pennsylvania Av & W North Av", null, "Curfew Violation", "Western", "735", "MONDAWMIN", [ null, "39.3096651037", "-76.6529125858", null, false ] ]
+, [ 11291, "BCFEDD4E-4BC1-436D-BD17-91374313B884", 11291, 1444219079, "883508", 1444219079, "883508", null, "15066552", "26", "M", "B", "2015-04-28T00:00:00", "22:45", "2200 W NORTH AVE", "Unknown Offense", "Pennsylvania Av & W North Av", null, "Curfew Violation", "Western", "735", "MONDAWMIN", [ null, "39.3096651037", "-76.6529125858", null, false ] ]
+, [ 11292, "87255E2A-358E-4A0B-9C6C-A15A8780B77C", 11292, 1444219079, "883508", 1444219079, "883508", null, "15066574", "29", "M", "B", "2015-04-28T00:00:00", "22:45", "2200 PENNSYLVANIA AVE", "Unknown Offense", "Pennsylvania Av & W North Av", null, "Curfew Violation", "Western", "731", "SANDTOWN-WINCHESTER", [ null, "39.3075143672", "-76.6395124453", null, false ] ]
+, [ 11293, "8660D37D-CABB-4F9F-83E6-7F325380F845", 11293, 1444219079, "883508", 1444219079, "883508", null, "15066554", "33", "M", "B", "2015-04-28T00:00:00", "22:45", "2200 PENNSYLVANIA AVE", "Unknown Offense", "Pennsylvania Av & W North Av", null, "Curfew Violation", "Western", "731", "SANDTOWN-WINCHESTER", [ null, "39.3075143672", "-76.6395124453", null, false ] ]
+, [ 11294, "AC87AEB6-C6FF-4CB5-8340-6A5378B1C21D", 11294, 1444219079, "883508", 1444219079, "883508", null, "15066342", "20", "M", "B", "2015-04-28T00:00:00", "03:30", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2400 E Monument St", "1 1130", "Burglary-4Th Degree-Store || Comm Burg", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11295, "F5E7059E-B5DA-4425-B4F9-C0C234D44208", 11295, 1444219079, "883508", 1444219079, "883508", null, "15066347", "27", "M", "B", "2015-04-28T00:00:00", "03:30", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2400 E Monument St", "2 3040", "Burglary-4Th Degree Theft || Common Burglary", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11296, "13FD011D-F570-4E4C-A210-7F7734C2C1B9", 11296, 1444219079, "883508", 1444219079, "883508", null, "15066349", "29", "M", "B", "2015-04-28T00:00:00", "03:30", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2400 E Monument St", "1 1130", "Burglary-4Th Degree-Store || Comm Burg", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11297, "996A550F-93B2-44FA-92D7-851C2703F698", 11297, 1444219079, "883508", 1444219079, "883508", null, "15066359", "26", "F", "B", "2015-04-28T00:00:00", "03:30", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2400 E Monument St", "1 1130", "Burglary-4Th Degree-Store || Looting", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11298, "2CF6FE35-B8BA-433C-9FAD-36F782D897F0", 11298, 1444219079, "883508", 1444219079, "883508", null, "15066376", "43", "F", "B", "2015-04-28T00:00:00", "03:30", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2400 E Monument St", "1 1130", "Burglary-4Th Degree-Store || Burglary", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11299, "0106F981-13B6-4E57-AFB1-B8753EE51A33", 11299, 1444219079, "883508", 1444219079, "883508", null, "15066243", "22", "M", "B", "2015-04-28T00:00:00", "02:45", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2200 E Monument St", "2 3010", "Burglary/2Nd Degree/General || Commercial B&E", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11300, "CC00D2A1-4AAA-4CEA-8A62-F0FB5F41B8CC", 11300, 1444219079, "883508", 1444219079, "883508", null, "15066300", "18", "M", "B", "2015-04-28T00:00:00", "02:50", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2200 E Monument St", "2 3010", "Burglary/2Nd Degree/General || Commercial B+E", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11301, "F3D382FD-FC9E-4D16-9EE4-C50FECB7596D", 11301, 1444219079, "883508", 1444219079, "883508", null, "15066414", "21", "M", "B", "2015-04-28T00:00:00", "10:00", "2200 E MONUMENT ST", "5D-Burg. Oth. (Force)", "2200 E Monument St", "1 1130", "Burglary-4Th Degree-Store || Burglary", "Eastern", "325", "CARE", [ null, "39.2986739435", "-76.5856532893", null, false ] ]
+, [ 11302, "632A2D12-F722-4730-BEEC-B7165C179C42", 11302, 1444219079, "883508", 1444219079, "883508", null, "15066531", "22", "M", "B", "2015-04-28T00:00:00", "20:50", "2200 ANNAPOLIS RD", "5D-Burg. Oth. (Force)", "2200 Annapolis Rd", "2 3040", "Burglary-4Th Degree Theft || Commercial Burglary", "Southern", "922", "WESTPORT", [ null, "39.2636032557", "-76.6336765289", null, false ] ]
+, [ 11303, "E1E6451A-3B00-4A69-86D2-2D0A16E9B3CE", 11303, 1444219079, "883508", 1444219079, "883508", null, "15066468", "51", "F", "B", "2015-04-28T00:00:00", "14:40", "2000 W LANVALE ST", "Unknown Offense", "2000 W Lanvale St", "2 3010", "Burglary/2Nd Degree/General || B & E", "Western", "724", "MIDTOWN-EDMONDSON", [ null, "39.2975148282", "-76.6492970601", null, false ] ]
+, [ 11304, "FDC5F67D-5F43-431D-B23F-9EA1747F9E6C", 11304, 1444219079, "883508", 1444219079, "883508", null, "15066462", "47", "F", "B", "2015-04-28T00:00:00", "14:40", "2000 W LANVALE ST", "Unknown Offense", null, "2 3010", "Burglary/2Nd Degree/General || B & E", "Western", "724", "MIDTOWN-EDMONDSON", [ null, "39.2975148282", "-76.6492970601", null, false ] ]
+, [ 11305, "F77E293D-9445-4873-B88B-A7B475A2107F", 11305, 1444219079, "883508", 1444219079, "883508", null, "15066611", "22", "M", "B", "2015-04-28T00:00:00", "23:45", "2000 MCCULLOH ST", "5D-Burg. Oth. (Force)", "3200 Greenmount Ave", null, "Curfew Violation", "Central", "131", "DRUID HEIGHTS", [ null, "39.3081451439", "-76.6347734940", null, false ] ]
+, [ 11306, "A0CE5C86-9659-4B2F-9DFF-19931D795A43", 11306, 1444219079, "883508", 1444219079, "883508", null, "15066610", "23", "M", "B", "2015-04-28T00:00:00", "22:45", "2000 MCCULLOH ST", "Unknown Offense", null, null, "Adult Curfew", "Central", "131", "DRUID HEIGHTS", [ null, "39.3081451439", "-76.6347734940", null, false ] ]
+, [ 11307, "6B9838E4-41E5-464F-8413-E810D2CB12B1", 11307, 1444219079, "883508", 1444219079, "883508", null, "15066616", "19", "M", "B", "2015-04-28T00:00:00", "23:00", "2000 MCCULLOH ST", "Unknown Offense", null, null, "Curfew Violation", "Central", "131", "DRUID HEIGHTS", [ null, "39.3081451439", "-76.6347734940", null, false ] ]
+, [ 11308, "D541AC56-1AC6-4450-966E-FF16F0C01A62", 11308, 1444219079, "883508", 1444219079, "883508", null, "15066619", "20", "M", "B", "2015-04-28T00:00:00", "23:00", "2000 MCCULLOH ST", "Unknown Offense", null, null, "Curfew Violation", "Central", "131", "DRUID HEIGHTS", [ null, "39.3081451439", "-76.6347734940", null, false ] ]
+, [ 11309, "F88D663C-A991-466E-A88D-AE548B3812AF", 11309, 1444219079, "883508", 1444219079, "883508", null, "15066620", "23", "M", "B", "2015-04-28T00:00:00", "22:45", "2000 MCCULLOH ST", "Unknown Offense", null, null, "Curfew Violation", "Central", "131", "DRUID HEIGHTS", [ null, "39.3081451439", "-76.6347734940", null, false ] ]
+, [ 11310, "06DDED91-2555-452F-8B20-D2FCF3A633AF", 11310, 1444219079, "883508", 1444219079, "883508", null, "15066304", "51", "F", "B", "2015-04-28T00:00:00", "00:30", "200 W CHASE ST", "Unknown Offense", null, "2 3040", "Burglary-4Th Degree Theft || Disorderly", "Central", "143", "MID-TOWN BELVEDERE", [ null, "39.3016896442", "-76.6192800330", null, false ] ]
+, [ 11311, "D1E25BF6-3784-4426-8E2A-ECB1ACA6DD60", 11311, 1444219079, "883508", 1444219079, "883508", null, "15066560", "29", "M", "B", "2015-04-28T00:00:00", "22:18", "200 CLAY ST", "Unknown Offense", "200 Saint Paul Pl", "3 4025", "Mal Dest Prop/Valu - $500 || Malicious Destruction", "Central", "114", "DOWNTOWN", [ null, "39.2923288036", "-76.6183016922", null, false ] ]
+, [ 11312, "3A1EA34C-50E3-4C92-BDBE-95210045F0C8", 11312, 1444219079, "883508", 1444219079, "883508", null, "15066261", "23", "M", "B", "2015-04-28T00:00:00", "02:00", "1800 W NORTH AVE", "Unknown Offense", null, "2 0050", "Dis.Erly Conduct || Disorderly Conduct", "Western", "733", "MONDAWMIN", [ null, "39.3099061964", "-76.6466242068", null, false ] ]
+, [ 11313, "4A4718C0-8F48-4329-A0FE-49BE67DB7042", 11313, 1444219079, "883508", 1444219079, "883508", null, "15066250", "29", "M", "B", "2015-04-28T00:00:00", "02:00", "1800 W NORTH AVE", "Unknown Offense", null, "2 0050", "Dis.Erly Conduct || Disorderly Conduct", "Western", "733", "MONDAWMIN", [ null, "39.3099061964", "-76.6466242068", null, false ] ]
+, [ 11314, "902A3ED8-B428-4BAA-A1CE-56B78322C3CB", 11314, 1444219079, "883508", 1444219079, "883508", null, "15066238", "23", "M", "W", "2015-04-28T00:00:00", "02:00", "1800 W NORTH AVE", "Unknown Offense", null, "2 0050", "Dis.Erly Conduct || Disorderly Conduct", "Western", "733", "MONDAWMIN", [ null, "39.3099061964", "-76.6466242068", null, false ] ]
+, [ 11315, "B398C06E-A769-4778-A821-165E29A356A0", 11315, 1444219079, "883508", 1444219079, "883508", null, "15066246", "24", "M", "W", "2015-04-28T00:00:00", "02:00", "1800 W NORTH AVE", "Unknown Offense", null, "2 0050", "Dis.Erly Conduct || Disorderly Conduct", "Western", "733", "MONDAWMIN", [ null, "39.3099061964", "-76.6466242068", null, false ] ]
+, [ 11316, "61310A6B-4933-4464-A52B-CE382184437C", 11316, 1444219079, "883508", 1444219079, "883508", null, "15066301", "37", "M", "B", "2015-04-28T00:00:00", "03:05", "1700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3040", "Burglary-4Th Degree Theft || Larceny", "Central", "132", "UPTON", [ null, "39.3038964991", "-76.6350487883", null, false ] ]
+, [ 11317, "329B5139-B06B-4356-8C1E-5A51D78CD20C", 11317, 1444219079, "883508", 1444219079, "883508", null, "15066307", "36", "M", "B", "2015-04-28T00:00:00", "03:05", "1700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3040", "Burglary-4Th Degree Theft || Larceny", "Central", "132", "UPTON", [ null, "39.3038964991", "-76.6350487883", null, false ] ]
+, [ 11318, "45E518F1-1E04-4EDA-92C3-6CDA92DBDDE4", 11318, 1444219079, "883508", 1444219079, "883508", null, "15066305", "27", "M", "B", "2015-04-28T00:00:00", "03:00", "1700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3030", "Burglary-Fourth Degree || Larceny", "Central", "132", "UPTON", [ null, "39.3038964991", "-76.6350487883", null, false ] ]
+, [ 11319, "6386EFBA-2EA9-4860-B3E4-ED4340C2F694", 11319, 1444219079, "883508", 1444219079, "883508", null, "15066310", "28", "M", "B", "2015-04-28T00:00:00", "03:00", "1700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3040", "Burglary-4Th Degree Theft || B And E", "Central", "132", "UPTON", [ null, "39.3038964991", "-76.6350487883", null, false ] ]
+, [ 11320, "F87E84CC-9E44-4FA5-99E0-10F47F2768F3", 11320, 1444219079, "883508", 1444219079, "883508", null, "15066320", "18", "M", "B", "2015-04-28T00:00:00", "02:14", "1700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3040", "Burglary-4Th Degree Theft || 4Th Degree Burglary", "Central", "132", "UPTON", [ null, "39.3038964991", "-76.6350487883", null, false ] ]
+, [ 11321, "4C5D3E46-DCC1-4CAD-9302-82CDFB51309B", 11321, 1444219079, "883508", 1444219079, "883508", null, "15066311", "23", "F", "B", "2015-04-28T00:00:00", "02:14", "1700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3040", "Burglary-4Th Degree Theft || 4Th Degree Burglary", "Central", "132", "UPTON", [ null, "39.3038964991", "-76.6350487883", null, false ] ]
+, [ 11322, "18F39FA8-7D1E-448D-BE2D-4B5F971D0346", 11322, 1444219079, "883508", 1444219079, "883508", null, "15066275", "19", "F", "B", "2015-04-28T00:00:00", "03:25", "1700 PENNSYLVANIA AVE", "Unknown Offense", null, "2 3040", "Burglary-4Th Degree Theft || Commercial B & E", "Central", "132", "UPTON", [ null, "39.3038964991", "-76.6350487883", null, false ] ]
+, [ 11323, "46945025-776A-42C8-A636-F0CF460B1AA2", 11323, 1444219079, "883508", 1444219079, "883508", null, "15066170", "33", "M", "B", "2015-04-28T00:00:00", "01:00", "1600 W NORTH AVE", "Unknown Offense", "1600 W North Ave", "2 0050", "Dis.Erly Conduct || Disorderly", "Western", "733", "PENN NORTH", [ null, "39.3100495075", "-76.6434028230", null, false ] ]
+, [ 11324, "86922317-000E-40D2-BDAE-7670B2595F66", 11324, 1444219079, "883508", 1444219079, "883508", null, "15066498", "22", "M", "B", "2015-04-28T00:00:00", "20:00", "1600 W NORTH AVE", "Unknown Offense", null, "2 0050", "Dis.Erly Conduct || Disorderly", "Western", "733", "PENN NORTH", [ null, "39.3100495075", "-76.6434028230", null, false ] ]
+, [ 11325, "F02D6861-9ED6-4E22-BE44-8E61F5395D57", 11325, 1444219079, "883508", 1444219079, "883508", null, "15066542", "25", "M", "B", "2015-04-28T00:00:00", "22:35", "1600 RIGGS AVE", "Unknown Offense", "1500 Riggs Ave", null, "Curfew Violation", "Western", "715", "SANDTOWN-WINCHESTER", [ null, "39.3010768963", "-76.6431768884", null, false ] ]
+, [ 11326, "E37B91F5-EC5D-444B-908C-9671F7A2E2A8", 11326, 1444219079, "883508", 1444219079, "883508", null, "15066543", "21", "M", "B", "2015-04-28T00:00:00", "22:35", "1600 RIGGS AVE", "Unknown Offense", "1500 Riggs Ave", null, "Curfew Violation", "Western", "715", "SANDTOWN-WINCHESTER", [ null, "39.3010768963", "-76.6431768884", null, false ] ]
+, [ 11327, "D709F648-C146-4F2C-BA1C-FFA209EBB475", 11327, 1444219079, "883508", 1444219079, "883508", null, "15066555", "22", "F", "B", "2015-04-28T00:00:00", "22:35", "1600 RIGGS AVE", "Unknown Offense", "1500 Riggs Ave", null, "Curfew Violation", "Western", "715", "SANDTOWN-WINCHESTER", [ null, "39.3010768963", "-76.6431768884", null, false ] ]
+, [ 11328, "50AD8A48-EF35-4F23-90CD-4E182507D199", 11328, 1444219079, "883508", 1444219079, "883508", null, "15066140", "46", "M", "B", "2015-04-28T00:00:00", "00:30", "1500 W NORTH AVE", "Unknown Offense", "1500 W North Ave", "1 0692", "Cds-Poss Of Firearms || Hgv", "Western", "733", "PENN NORTH", [ null, "39.3101336559", "-76.6415206496", null, false ] ]
+, [ 11329, "1B22C59A-71B1-453B-813B-45F0AC6D6E44", 11329, 1444219079, "883508", 1444219079, "883508", null, "15066363", "50", "M", "B", "2015-04-28T00:00:00", "00:41", "1500 HAVENWOOD RD", "Unknown Offense", null, "1 1130", "Burglary-4Th Degree-Store || B/E", "Northeastern", "421", "HILLEN", [ null, "39.3406441493", "-76.5930795912", null, false ] ]
+, [ 11330, "03902533-7865-4AF6-B2BD-191D66E05BFA", 11330, 1444219079, "883508", 1444219079, "883508", null, "15066505", "19", "M", "B", "2015-04-28T00:00:00", "18:30", "1500 E FEDERAL ST", "79-Other", "1400 N Caroline St", "1 1106", "Reg Firearm:Illegal Possession || Hand Gun Violation", "Eastern", "321", "OLIVER", [ null, "39.3084494066", "-76.5977413998", null, false ] ]
+, [ 11331, "A9461F7B-66F8-4271-8821-3DA665215726", 11331, 1444219079, "883508", 1444219079, "883508", null, "15066503", "18", "M", "B", "2015-04-28T00:00:00", "20:30", "1400 E EAGER ST", "Unknown Offense", "1400 E Eager St", "2 0050", "Dis.Erly Conduct || Disorderly", "Eastern", "322", "GAY STREET", [ null, "39.3017061159", "-76.5993226907", null, false ] ]
+, [ 11332, "1B00CE87-BC5B-49A1-91D2-EA6052052ADC", 11332, 1444219079, "883508", 1444219079, "883508", null, "15066206", "21", "F", "B", "2015-04-28T00:00:00", "01:00", "1300 W BALTIMORE ST", "Unknown Offense", "1300 W Baltimore St", "1 0622", "Theft: $1,000 To Under $10,000 || Commercial B&E", "Western", "712", "FRANKLIN SQUARE", [ null, "39.2884979249", "-76.6390418528", null, false ] ]
+, [ 11333, "D06C08D1-23EC-47D2-B769-D595E763C366", 11333, 1444219079, "883508", 1444219079, "883508", null, "15066569", "27", "M", "B", "2015-04-28T00:00:00", "23:20", "1300 N STOCKTON ST", "Unknown Offense", "1300 N Stockton St", "3 0233", "Cds:P W/I Dist:Narc || Cds", "Western", "731", "SANDTOWN-WINCHESTER", [ null, "39.3040053400", "-76.6383018279", null, false ] ]
+, [ 11334, "DBF12E94-7D15-462B-AE24-B1114940D9A7", 11334, 1444219079, "883508", 1444219079, "883508", null, "15066450", "18", "M", "B", "2015-04-28T00:00:00", "14:50", "1200 HOLLINS ST", "Unknown Offense", "1100 Hollins St", "4 3550", "Cds:Possess-Not Marihuana || Cds", "Southern", "933", "HOLLINS MARKET", [ null, "39.2876381152", "-76.6367323965", null, false ] ]
+, [ 11335, "E7158749-EF78-4FF3-8A95-2E78ECE18677", 11335, 1444219079, "883508", 1444219079, "883508", null, "15066400", "31", "M", "B", "2015-04-28T00:00:00", "09:30", "1200 E NORTH AVE", "5D-Burg. Oth. (Force)", "1200 E North Ave", "2 3040", "Burglary-4Th Degree Theft || B&E", "Eastern", "312", "EAST BALTIMORE MIDWAY", [ null, "39.3119081348", "-76.6004617136", null, false ] ]
+, [ 11336, "DFB5DC3E-1031-4DCF-B5CD-3CE158E333CF", 11336, 1444219079, "883508", 1444219079, "883508", null, "15066398", "40", "M", "B", "2015-04-28T00:00:00", "09:30", "1200 E NORTH AVE", "5D-Burg. Oth. (Force)", "1200 E North Ave", "2 3040", "Burglary-4Th Degree Theft || Commercial B&E", "Eastern", "312", "EAST BALTIMORE MIDWAY", [ null, "39.3119081348", "-76.6004617136", null, false ] ]
+, [ 11337, "1F87ACE9-AF1C-41AE-9C7D-6BE0E616F0C0", 11337, 1444219079, "883508", 1444219079, "883508", null, "15066529", "34", "M", "B", "2015-04-28T00:00:00", "20:30", "1100 PENNSYLVANIA AVE", "Unknown Offense", "1100 Pennsylvania Ave", "2 0055", "Fail Obey Renble/Lawfl || Disorderly Conduct", "Central", "124", "UPTON", [ null, "39.2987698841", "-76.6287948199", null, false ] ]
+, [ 11338, "D431BE75-E679-4462-BD88-FDD74E6BC11B", 11338, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066748", "39", "M", "W", "2015-04-28T00:00:00", "18:50", null, "5A-Burg. Res. (Force)", "300 Birkwood Pl", "2 3000", "Burglary-First Degree || Burglary-First Degree", null, null, null, [ null, null, null, null, null ] ]
+, [ 11339, "DC0E8D07-3CC4-4F6F-A4DC-7F3D32FF9E65", 11339, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066409", "30", "M", "B", "2015-04-28T00:00:00", "09:30", null, "2F-Placing Hands", "1900 N Howard St", "1 0322", "Sex Abuse Minor || Sex Abuse Minor", null, null, null, [ null, null, null, null, null ] ]
+, [ 11340, "4E28E794-E63D-4D3D-96A3-09470DD0472B", 11340, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066397", "43", "M", "B", "2015-04-28T00:00:00", "09:25", null, "5F-Burg. Oth. (Noforce)", "1300 Laurens St", "1 0621", "Theft: Less $1,000 Value || Theft: Less $1,000 Value", null, null, null, [ null, null, null, null, null ] ]
+, [ 11341, "B752F8D0-F6C3-4C57-BDFD-84AA4C312E24", 11341, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "31", "M", "B", "2015-04-28T00:00:00", "01:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11342, "D694C178-6D77-4B7A-B1F1-5380BF5056FD", 11342, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "34", "M", "B", "2015-04-28T00:00:00", "01:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11343, "8EBD6BD9-D097-4CC5-925B-F712368ADC69", 11343, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "22", "M", "B", "2015-04-28T00:00:00", "01:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11344, "868A4DBA-CFCE-4835-B3A9-21BE9A669352", 11344, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "43", "M", "B", "2015-04-28T00:00:00", "00:30", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11345, "1C422516-6B41-4BCF-A940-3775D13B7685", 11345, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "30", "M", "B", "2015-04-28T00:00:00", "02:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11346, "664AFF8A-0D23-499F-AD1D-4FFCC692233D", 11346, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "20", "M", "B", "2015-04-28T00:00:00", "02:20", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11347, "F5A55946-0A09-4BE5-9D3E-DB9BBDD88A82", 11347, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "23", "M", "W", "2015-04-28T00:00:00", "00:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11348, "A0D07CF1-0B04-44F0-979B-6674C2AAC06B", 11348, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "20", "M", "B", "2015-04-28T00:00:00", "03:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11349, "8153E4B6-83A4-4A6F-A7EE-7F6F165B0C20", 11349, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "20", "M", "B", "2015-04-28T00:00:00", "00:50", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11350, "6974F50B-81C6-4256-8E48-E537959710D3", 11350, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "35", "M", "B", "2015-04-28T00:00:00", "03:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11351, "B55D448D-4A3D-4E8E-AAB4-A2889DFA514F", 11351, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "31", "F", "B", "2015-04-28T00:00:00", "03:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11353, "93719E14-E9D4-47E8-82FB-B47BB8AF8BB0", 11353, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "33", "M", "B", "2015-04-28T00:00:00", "02:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11352, "686B5799-91EB-4DB1-943F-6EE2AD9A58BD", 11352, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "28", "M", "B", "2015-04-28T00:00:00", "03:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11379, "6CAD7FDF-47B3-4F1A-926D-2924C8BD21DF", 11379, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "28", "F", "B", "2015-04-28T00:00:00", "22:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11378, "C4DA9929-6211-4702-80C1-73F00A647F22", 11378, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066649", "54", "M", "W", "2015-04-28T00:00:00", "23:50", null, "Unknown Offense", null, null, "Failure To Obey", null, null, null, [ null, null, null, null, null ] ]
+, [ 11377, "1C9E3927-679F-4E9F-96F9-E3BE54234C39", 11377, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "23", "F", "B", "2015-04-28T00:00:00", "22:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11376, "B4A44DE2-CAA0-455C-B59A-E9071F4ECB23", 11376, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "27", "F", "B", "2015-04-28T00:00:00", "22:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11375, "0A0CFF1E-9629-46BF-B569-95A6768CA783", 11375, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066633", "27", "M", "B", "2015-04-28T00:00:00", "23:10", null, "Unknown Offense", null, "1 1415", "Asslt-Sec Degree || Assault-Sec Degree", null, null, null, [ null, null, null, null, null ] ]
+, [ 11374, "BEBEFF2E-D751-4C67-BCEB-9EF4AB2792C2", 11374, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066617", "29", "M", "B", "2015-04-28T00:00:00", "22:50", null, "Unknown Offense", null, "2 3010", "Burglary/2Nd Degree/General || Burglary/2Nd Degree/Gen", null, null, null, [ null, null, null, null, null ] ]
+, [ 11373, "9E6E9C3E-AA36-433A-94A0-07372191A48E", 11373, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066603", "29", "M", "B", "2015-04-28T00:00:00", "23:00", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11372, "C737B316-D043-43F1-BDC2-8CE6A31D0F02", 11372, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066494", "18", "M", "B", "2015-04-28T00:00:00", "17:00", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11371, "88826497-CCEC-4C90-8F1B-70703520C9B3", 11371, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066481", "25", "M", "B", "2015-04-28T00:00:00", "16:00", null, "Unknown Offense", null, "999999", "Violation Of Probation || Violation Of Probation", null, null, null, [ null, null, null, null, null ] ]
+, [ 11370, "F3CFDEA3-71CE-4B46-AA3B-F4FD4A65247C", 11370, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "24", "M", "B", "2015-04-28T00:00:00", "13:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11369, "26A700C8-BAB9-422B-913A-BAF0E58AE66C", 11369, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066463", "38", "M", "W", "2015-04-28T00:00:00", "14:00", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11368, "1AFCEF58-4234-4DCD-A721-89187A04D351", 11368, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "24", "M", "B", "2015-04-28T00:00:00", "03:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11367, "18EC2E43-CEE4-4AF8-82EF-1EE312D6507B", 11367, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "27", "M", "B", "2015-04-28T00:00:00", "15:54", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11366, "B8DD6759-0107-4B19-9A82-33FDB855651D", 11366, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "32", "M", "B", "2015-04-28T00:00:00", "10:28", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11365, "3EA1660E-2ACE-42CD-A20F-57EBA614AB0B", 11365, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "36", "M", "B", "2015-04-28T00:00:00", "01:28", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11364, "73CB2F88-AB7B-45F4-9C0E-6CF6192A078C", 11364, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066441", "19", "F", "B", "2015-04-28T00:00:00", "13:26", null, "Unknown Offense", null, "1 2474", "Fta/Misdemeanor Defendant || Fta/Misdemeanor Defendant", null, null, null, [ null, null, null, null, null ] ]
+, [ 11363, "021969B3-1A76-4A1C-86D7-5A4F7CEB8AAD", 11363, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066433", "28", "F", "B", "2015-04-28T00:00:00", "12:05", null, "Unknown Offense", null, "1 1420", "Asslt-First Degree || Assault-First Degree", null, null, null, [ null, null, null, null, null ] ]
+, [ 11362, "1D32BA31-8101-4B62-89CE-D078FD83B48D", 11362, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "23", "F", "B", "2015-04-28T00:00:00", "08:15", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11361, "DE0DA266-9F1C-4BC4-B1A0-014E98A7F981", 11361, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "22", "M", "B", "2015-04-28T00:00:00", "08:00", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11360, "BCE50DEA-10E7-4DE4-A68B-27173BCFE3E4", 11360, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066393", "35", "M", "B", "2015-04-28T00:00:00", "07:30", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11359, "CD0F5086-9C20-4E3D-9964-3718B05B4580", 11359, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066395", "39", "M", "B", "2015-04-28T00:00:00", "09:25", null, "Unknown Offense", null, "1 0077", "Failure To Appear || Failure To Appear", null, null, null, [ null, null, null, null, null ] ]
+, [ 11358, "C3281D1E-5BA9-4F64-812D-3D67B5C55FD8", 11358, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066389", "24", "M", "B", "2015-04-28T00:00:00", "04:12", null, "Unknown Offense", null, "1 1313", "Assault || Assault", null, null, null, [ null, null, null, null, null ] ]
+, [ 11357, "FBDE182B-262C-4175-9750-536E0DCD5970", 11357, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "19", "M", "B", "2015-04-28T00:00:00", "06:18", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11356, "1927541B-35AD-4A6A-934B-8D47DB4EDD26", 11356, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "29", "M", "B", "2015-04-28T00:00:00", "06:15", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11355, "9AB79CCC-1984-4BE4-B4EF-9907301784F7", 11355, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", null, "23", "M", "B", "2015-04-28T00:00:00", "06:10", null, "Unknown Offense", null, null, "Unknown Charge", null, null, null, [ null, null, null, null, null ] ]
+, [ 11354, "77417460-AB27-4E5D-8ABA-00631434D3B9", 11354, 1444219079, "883508", 1444219079, "883508", "{\n  \"invalidCells\" : {\n    \"1601928\" : \"{\\\"latitude\\\":\\\"\\\",\\\"longitude\\\":\\\"\\\",\\\"human_address\\\":{}}\"\n  }\n}", "15066355", "45", "F", "B", "2015-04-28T00:00:00", "00:41", null, "Unknown Offense", null, "1 0621", "Theft: Less $1,000 Value || Commercial Burglary", null, null, null, [ null, null, null, null, null ] ]
+, [ 11237, "DA127B60-1173-424E-9A19-288A9336966C", 11237, 1444219079, "883508", 1444219079, "883508", null, "15066520", "55", "M", "B", "2015-04-28T00:00:00", "21:00", "900 N GILMOR ST", "Unknown Offense", "900 N Gilmor St", "2 3050", "Burglary-4Th Degree/Tools || Attempted Commercial B&E", "Western", "715", "SANDTOWN-WINCHESTER", [ null, "39.2990564351", "-76.6429878011", null, false ] ]
+, [ 11238, "43ECD0AB-0D9A-49CC-B960-A75BBF6433EF", 11238, 1444219079, "883508", 1444219079, "883508", null, "15066518", "48", "M", "B", "2015-04-28T00:00:00", "21:00", "900 N GILMOR ST", "Unknown Offense", "900 N Gilmor St", "1A1130", "Att-Burglary-4Th Deg-Store || Attempted Commercial B&E", "Western", "715", "SANDTOWN-WINCHESTER", [ null, "39.2990564351", "-76.6429878011", null, false ] ]
+, [ 11239, "D843AB12-2ED4-4FAB-8A0B-522A491AED87", 11239, 1444219079, "883508", 1444219079, "883508", null, "15066369", "29", "M", "B", "2015-04-28T00:00:00", "04:00", "900 N EDEN ST", "Unknown Offense", "4900 Frankford Ave", "2 3040", "Burglary-4Th Degree Theft || Burglary", "Eastern", "322", "GAY STREET", [ null, "39.3009575851", "-76.5992759468", null, false ] ]
+, [ 11240, "A2BDEEEE-E21D-4091-969D-4FE5F5D61F7D", 11240, 1444219079, "883508", 1444219079, "883508", null, "15066343", "23", "M", "B", "2015-04-28T00:00:00", "04:00", "900 N EDEN ST", "Unknown Offense", "4900 Frankford Ave", "2 3040", "Burglary-4Th Degree Theft || Breaking And Entering", "Eastern", "322", "GAY STREET", [ null, "39.3009575851", "-76.5992759468", null, false ] ]
+, [ 11241, "4AC5B2B3-7EAD-4554-87F3-31D9E1DA01FB", 11241, 1444219079, "883508", 1444219079, "883508", null, "15066558", "28", "M", "B", "2015-04-28T00:00:00", "22:20", "900 E PATAPSCO AVE", "Unknown Offense", "900 E Patapsco Ave", null, "Curfew Violation", "Southern", "912", "FAIRFIELD AREA", [ null, "39.2348692875", "-76.5975623104", null, false ] ]
+, [ 11242, "16192FFC-28FC-4639-B109-BF8A6201483D", 11242, 1444219079, "883508", 1444219079, "883508", null, "15066547", "27", "M", "B", "2015-04-28T00:00:00", "22:20", "900 E PATAPSCO AVE", "Unknown Offense", "900 E Patapsco Ave", null, "Curfew Violation", "Southern", "912", "FAIRFIELD AREA", [ null, "39.2348692875", "-76.5975623104", null, false ] ]
+, [ 11243, "6DD50CAC-34FE-4EDA-9EBF-C26397D83D75", 11243, 1444219079, "883508", 1444219079, "883508", null, "15066561", "19", "M", "B", "2015-04-28T00:00:00", "22:20", "900 E PATAPSCO AVE", "Unknown Offense", "900 E Patapsco Ave", null, "Curfew Violation", "Southern", "912", "FAIRFIELD AREA", [ null, "39.2348692875", "-76.5975623104", null, false ] ]
+, [ 11244, "FAE53175-3202-46DF-A35F-9DE1F5E95A47", 11244, 1444219079, "883508", 1444219079, "883508", null, "15066506", "35", "F", "B", "2015-04-28T00:00:00", "20:15", "5600 THE ALAMEDA", "Unknown Offense", "5600 The Alameda", "1 1415", "Asslt-Sec Degree || Common Assault", "Northern", "523", "GLEN OAKS", [ null, "39.3594946426", "-76.5944623243", null, false ] ]
+, [ 11245, "7A1C67F6-5968-4F11-8567-66B5B9267C4D", 11245, 1444219079, "883508", 1444219079, "883508", null, "15066322", "23", "M", "B", "2015-04-28T00:00:00", "00:27", "5100 SINCLAIR LN", "5D-Burg. Oth. (Force)", "5100 Sinclair Ln", "1A0621", "Att - Theft: Less $1,000 Value || Burglary", "Northeastern", "433", "FRANKFORD", [ null, "39.3222229718", "-76.5471642494", null, false ] ]
+, [ 11246, "17E1AA4C-BD22-40AD-8D0C-A271202F7AD7", 11246, 1444219079, "883508", 1444219079, "883508", null, "15066294", "18", "F", "B", "2015-04-28T00:00:00", "00:27", "5100 SINCLAIR LN", "5D-Burg. Oth. (Force)", "5100 Sinclair Ln", "1 1130", "Burglary-4Th Degree-Store || Burglary", "Northeastern", "433", "FRANKFORD", [ null, "39.3222273025", "-76.5471312110", null, false ] ]
+, [ 11247, "310A0186-212D-46BE-90AC-D4BF7C5D89B4", 11247, 1444219079, "883508", 1444219079, "883508", null, "15066274", "28", "F", "B", "2015-04-28T00:00:00", "00:05", "5100 SINCLAIR LN", "Unknown Offense", null, "1 1130", "Burglary-4Th Degree-Store || Commercial  Burglary", "Northeastern", "433", "FRANKFORD", [ null, "39.3222359639", "-76.5470651343", null, false ] ]
+, [ 11248, "4A5D39FC-F24A-4FB2-8ED8-E16E59430478", 11248, 1444219079, "883508", 1444219079, "883508", null, "15066336", "27", "F", "B", "2015-04-28T00:00:00", "00:05", "5100 SINCLAIR LN", "Unknown Offense", null, "2 3010", "Burglary/2Nd Degree/General || Commercial Burglary", "Northeastern", "433", "FRANKFORD", [ null, "39.3222359639", "-76.5470651343", null, false ] ]
+, [ 11249, "E1FE3774-8CC1-49DE-9FC3-05188016D397", 11249, 1444219079, "883508", 1444219079, "883508", null, "15066382", "22", "F", "B", "2015-04-28T00:00:00", "00:05", "5100 SINCLAIR LN", "Unknown Offense", null, "1 1130", "Burglary-4Th Degree-Store || 1St Degree B & E", "Northeastern", "433", "FRANKFORD", [ null, "39.3222359639", "-76.5470651343", null, false ] ]
+, [ 11250, "E5C99398-A4DF-434E-AD90-62DC7D94C951", 11250, 1444219079, "883508", 1444219079, "883508", null, "15066589", "31", "M", "B", "2015-04-28T00:00:00", "22:10", "5000 SINCLAIR LN", "Unknown Offense", "5000 Sinclair Ln", null, "Obligatory Curfew", "Northeastern", "433", "FRANKFORD", [ null, "39.3221006714", "-76.5481060023", null, false ] ]
+, [ 11251, "02F413A0-ABD0-4B47-9229-119B44BC312C", 11251, 1444219079, "883508", 1444219079, "883508", null, "15066416", "39", "F", "B", "2015-04-28T00:00:00", "05:10", "4700 GARRISON BLVD", "5D-Burg. Oth. (Force)", "4700 Garrison Blvd", "1 1130", "Burglary-4Th Degree-Store || Burglary", "Northwestern", "624", "DOLFIELD", [ null, "39.3404296244", "-76.6837272200", null, false ] ]
+, [ 11252, "1536E7AC-5358-47E6-A4C9-696757F09603", 11252, 1444219079, "883508", 1444219079, "883508", null, "15066252", "31", "M", "B", "2015-04-28T00:00:00", "00:50", "4200 FREDERICK AVE", "5D-Burg. Oth. (Force)", "2400 Frederick Ave", "2 3040", "Burglary-4Th Degree Theft || Disorderly", "Southwestern", "824", "IRVINGTON", [ null, "39.2816617467", "-76.6849651062", null, false ] ]
+, [ 11253, "15369FC7-3BE1-4926-88BF-70463BEC1CB7", 11253, 1444219079, "883508", 1444219079, "883508", null, "15066278", "21", "F", "B", "2015-04-28T00:00:00", "00:50", "4200 FREDERICK AVE", "5D-Burg. Oth. (Force)", "2400 Frederick Ave", "1 0621", "Theft: Less $1,000 Value || B&E", "Southwestern", "824", "IRVINGTON", [ null, "39.2816617467", "-76.6849651062", null, false ] ]
+, [ 11254, "26309D72-0304-4CF5-ADDF-944B2AAE4CD7", 11254, 1444219079, "883508", 1444219079, "883508", null, "15066324", "25", "M", "B", "2015-04-28T00:00:00", "00:50", "4200 FREDERICK AVE", "5D-Burg. Oth. (Force)", "2400 Frederick Ave", "2 3040", "Burglary-4Th Degree Theft || B + E", "Southwestern", "824", "IRVINGTON", [ null, "39.2816617467", "-76.6849651062", null, false ] ]
+, [ 11255, "C836B33E-C87F-4D34-BA19-D4C2F66FBD6E", 11255, 1444219079, "883508", 1444219079, "883508", null, "15066548", "20", "M", "B", "2015-04-28T00:00:00", "23:15", "400 W FRANKLIN ST", "5D-Burg. Oth. (Force)", "400 W Franklin St", "2 3010", "Burglary/2Nd Degree/General || Commercial B&E", "Central", "123", "DOWNTOWN", [ null, "39.2948256280", "-76.6220457732", null, false ] ]
+, [ 11256, "67745B34-39B7-476C-B23A-6F132DFCE890", 11256, 1444219079, "883508", 1444219079, "883508", null, "15066556", "20", "M", "B", "2015-04-28T00:00:00", "23:15", "400 W FRANKLIN ST", "79-Other", "400 E Patapsco Ave", "2 3010", "Burglary/2Nd Degree/General || Commercial B&E", "Central", "123", "DOWNTOWN", [ null, "39.2948256280", "-76.6220457732", null, false ] ]
+, [ 11257, "9DAFB2B7-48AE-4F20-8FDF-1B6C3CE73CA4", 11257, 1444219079, "883508", 1444219079, "883508", null, "15066384", "22", "M", "B", "2015-04-28T00:00:00", "05:15", "3900 ERDMAN AVE", "5D-Burg. Oth. (Force)", "3900 Erdman Ave", "1 0622", "Theft: $1,000 To Under $10,000 || B&E", "Northeastern", "413", "BELAIR-EDISON", [ null, "39.3147423059", "-76.5685157472", null, false ] ]
+, [ 11258, "B84B56FD-6CCC-46F6-B746-9396272B0846", 11258, 1444219079, "883508", 1444219079, "883508", null, "15066515", "24", "M", "B", "2015-04-28T00:00:00", "21:00", "3600 SAINT VICTOR ST", "Unknown Offense", "3600 Saint Victor St", "2 0050", "Dis.Erly Conduct || Disorderly", "Southern", "913", "BROOKLYN", [ null, "39.2341255148", "-76.5968208111", null, false ] ]
+, [ 11259, "B20C9B86-2762-4B0C-B66B-EF247193EB93", 11259, 1444219079, "883508", 1444219079, "883508", null, "15066567", "20", "M", "B", "2015-04-28T00:00:00", "22:58", "3600 7TH ST", "Unknown Offense", "3600 7Th St", null, "Curfew Violation", "Southern", "913", "BROOKLYN", [ null, "39.2357324148", "-76.6008609947", null, false ] ]
+, [ 11260, "9333FC31-A843-45CC-97DC-67D0E837DAC5", 11260, 1444219079, "883508", 1444219079, "883508", null, "15066572", "37", "M", "B", "2015-04-28T00:00:00", "22:58", "3600 7TH ST", "Unknown Offense", "3600 7Th St", null, "Night Time Curfew", "Southern", "913", "BROOKLYN", [ null, "39.2357324148", "-76.6008609947", null, false ] ]
+, [ 11261, "17DB572D-6C3D-47FF-89F5-FC4CFE401DC4", 11261, 1444219079, "883508", 1444219079, "883508", null, "15066562", "21", "F", "B", "2015-04-28T00:00:00", "21:54", "3400 BELAIR RD", "5D-Burg. Oth. (Force)", "Belair Rd & Lake Av", "1 1130", "Burglary-4Th Degree-Store || B&E", "Northeastern", "415", "BELAIR-EDISON", [ null, "39.3226087466", "-76.5722668124", null, false ] ]
+]
+}
