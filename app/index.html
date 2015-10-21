@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<html ng-app>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>BPD Arrests</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+
+  <!-- Default Stylesheet  -->
+  <link rel="stylesheet" href="app.css">
+
+  <!-- Dependencies -->
+  <!-- HTML5 Boilerplate -->
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+  <!-- d3/nvd3 -->
+  <script src="bower_components/d3/d3.min.js" charset="utf-8"></script>
+  <script src="bower_components/nvd3/build/nv.d3.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="bower_components/nvd3/build/nv.d3.min.css">
+
+  <!-- Leaflet -->
+  <script src="bower_components/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
+
+  <!-- Bootstrap Slider -->
+  <link rel="stylesheet" href="bower_components/seiyria-bootstrap-slider/css/bootstrap-slider.css" />
+  <script type='text/javascript' src="bower_components/seiyria-bootstrap-slider/js/bootstrap-slider.js"></script>
+
+  <!-- Moment.js -->
+  <script type='text/javascript' src="bower_components/moment/min/moment.min.js"></script>
+
+  <style>
+  </style>
+
+</head>
+<body>
+
+  <div ng-include src="'header/header.html'"></div>
+  <div ng-view></div>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <!-- Angular Strap -->
+  <script type='text/javascript' src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+  <!-- Angular nvD3 -->
+  <script src="bower_components/angular-nvd3/dist/angular-nvd3.js"></script>
+  <script src="bower_components/angular-bootstrap-slider/slider.js"></script>
+  <script src="bower_components/angular-simple-logger/dist/angular-simple-logger.min.js"></script>
+  <script src="bower_components/angular-leaflet-directive/dist/angular-leaflet-directive_dev_mapped.js"></script>
+  <script src="app.js"></script>
+  <script src="home/home.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+  <script src="services/dataService.js"></script>
+</body>
+</html>

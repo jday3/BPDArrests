@@ -1,0 +1,35 @@
+/* app css stylesheet */
+
+body {
+  padding-top:51px;
+}
+
+
+text {
+  font: 12px sans-serif;
+}
+svg {
+  display: block;
+}
+html, body, svg {
+  width: 100%;
+  height: 100%;
+}
+
+.leaflet-container{
+  margin: 10px 0 0 0;
+}
+
+#map { height: 400px; }
+
+/* Angular Bootstrap fix for lack of href */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+.nv-axislabel{
+  font-weight: bold !important;
+  font-size: 16px !important;
+}
+
+.hide-legend .nv-controlsWrap {
+  display: none !important;
+}
