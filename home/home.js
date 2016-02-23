@@ -91,7 +91,7 @@ angular.module('myApp.home', ['ngRoute', 'ui.bootstrap-slider', 'nvd3'])
             description: 'Loading description...',
             leaflet: {
                 defaults: {
-                    tileLayer: 'https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ',
+                    tileLayer: 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                     minZoom: 10
                 },
                 center: {
